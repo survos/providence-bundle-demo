@@ -1,0 +1,11 @@
+{% extends "@UmbrellaAdmin/layout.html.twig" %}
+{% set menu = get_menu('App\\Menu\\ProfileMenu', { xmlProfile: xmlProfile }) %}
+
+{% block sidebar %}
+    {{ render_menu(menu, { }) }}
+{% endblock %}
+
+{% block breadcrumb %}
+    {% set breadcrumb = get_breadcrumb(menu, {}) %}
+    {{ render_breadcrumb(breadcrumb, {  }) }}
+{% endblock %}

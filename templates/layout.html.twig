@@ -1,0 +1,11 @@
+{% extends "@UmbrellaAdmin/layout.html.twig" %}
+{% set admin_menu = get_menu('App\\Menu\\AppMenu', { }) %}
+
+{% block sidebar %}
+    {{ render_menu(admin_menu, { }) }}
+{% endblock %}
+
+{% block breadcrumb %}
+    {% set admin_breadcrumb = get_breadcrumb(admin_menu, {}) %}
+    {{ render_breadcrumb(admin_breadcrumb, {  }) }}
+{% endblock %}

@@ -1,0 +1,6 @@
+# config/packages/umbrella_admin.yaml
+umbrella_admin:
+  menu: App\Menu\AppMenu
+  notification:
+      provider: App\Notification\AdminProfileProvider
+      poll_interval: 2

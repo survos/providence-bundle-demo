@@ -1,0 +1,100 @@
+{% extends 'profile/base.html.twig' %}
+
+{% block title %}Profile {% endblock %}
+
+{% block content %}
+    <h1>{{ xmlProfile.profileName }} {{ property }}</h1>
+
+
+    {% component grid with {
+        data: data,
+        columns: columns
+    } %}
+        {% block dump %}
+        {{ dump(row) }}
+        {% endblock %}
+
+        {% block hierarchical row.hierarchical ? 'H': '-'%}
+        {% block system row.system ? 'Sy': '-'%}
+        {% block vocabulary row.vocabulary ? 'V ': '-'%}
+
+        {% block code %}
+            {{ row.hierarchical|default(false) ? 'Hier' }}
+            {{ row.system|default(false) ? 'Sys' }}
+            {{ row.vocabulary|default(false) ? 'Vocab' }}
+            <code>{{ row.code }}</code>
+            {% if row.documentationUrl|default(false) %}
+            <a href="{{ row.documentationUrl }}" target="_blank">
+            <span class="fas fa-external-link-alt"></span>DOC
+            </a>
+            {% endif %}
+        {% endblock %}
+
+        {% block items %}
+            <table>
+
+            {% for item in row.getItems %}
+                <tr>
+                    <td>
+                        <span class="{{ item.enabled ? '' : 'text-muted' }}">
+                        {{ item.idno }}
+                        </span>
+                    </td>
+                    <td>{{ item.default|default('') }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+        {% endblock %}
+
+        {% block bundleCount %}
+        {{ row.bundles|length }}
+        {% endblock %}
+
+        {% block labels %}
+            {% for label in row.getLabels %}
+                <li>
+                    {{ label.name }}
+                    <i>{{ label.description }}</i>
+                </li>
+            {% endfor %}
+        {% endblock %}
+
+        {% block restrictions %}
+            <table>
+                {% for r in row.getTypeRestrictions %}
+                    <tr>
+                        <td title="{{ r.code }}">{{ r.table }}</td>
+                        <td>
+{#                            {{ r.getSettings|length }} Settings#}
+                            {{ r.getSettings|map( key => key )|join('-') }}
+Expand...
+                            <ul class="d-none">
+                            {% for setting in r.getSettings %}
+                                <li>
+                                    {{ setting.name }}: {{ setting.v|default('') }}
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+{#                    {{ dump(r) }}#}
+                {% endfor %}
+
+            </table>
+        {% endblock %}
+        {% block screens %}
+            {% for screen in row.getScreens %}
+                <li>
+                    #B: {{ screen.bundles|length }}
+                    {{ screen.idno }}
+                    DEF: {{ screen.default }}
+                    {% if loop.index == 1 %}
+                    {{ dump(screen) }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        {% endblock %}
+
+    {% endcomponent %}
+
+{% endblock %}
