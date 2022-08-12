@@ -19,8 +19,8 @@ class ProfileMenu extends BaseAdminMenu
         $root = $builder->root();
         $xmlProfile = $options['xmlProfile'];
         $propertyAccessor = new PropertyAccessor();
-        $root->add('dashboard')
-            ->route('profile_dashboard', $xmlProfile->getRp());
+        $root->add('dashboard')->route('profile_dashboard', $xmlProfile->getRp());
+        $root->add('labels')->route('profile_labels', $xmlProfile->getRp());
 
         foreach (['mde','list','ui','display'] as $prefix) {
             $root->add($prefix)

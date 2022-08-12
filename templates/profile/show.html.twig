@@ -53,6 +53,7 @@
         {% block labels %}
             {% for label in row.getLabels %}
                 <li>
+                    {{ label.locale }}
                     {{ label.name }}
                     <i>{{ label.description }}</i>
                 </li>

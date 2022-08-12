@@ -1,23 +1,71 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello AppController!{% endblock %}
+{% block title %}CA Data Profiles{% endblock %}
 
+{% block javascripts %}
+    {{ parent() }}
+    {#    {{ encore_entry_script_tags('profile') }}#}
+{% endblock %}
 {% block content %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h3>XML Profiles</h3>
-    <ul>
-    {% for xmlProfile in profiles %}
-        <li>
-            <a href="{{ path('profile_dashboard', {profileId: xmlProfile.profileId}) }}">
-                {{ xmlProfile.profileId }}
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
-</div>
+    {% if app.environment == 'dev' %}
+        <a href="{{ path(app.request.get('_route'), {reload: true}) }}" class="btn btn-danger"><span class="fas fa-sync"></span> Reload</a>
+    {% endif %}
+
+    {{ 'Done'|trans }}
+
+    <table id="profiles-table" class="table table-striped js-profile-table datatable">
+        <thead>
+        <tr>
+            <th>Links</th>
+            <th>Langs</th>
+            <th>Name</th>
+            <th>UIs</th>
+            <th>Lists</th>
+            <th>Displays</th>
+            <th>Elements</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for profile in profiles|default([]) %}
+            {% set filename = profile.filename %}
+            <tr>
+                <td>
+                    {#                    <a class="btn btn-primary" href="{{ path('profile_import', profile.rp) }}">Import</a>#}
+                    <a target="_blank" href="{{ path('profile_dashboard', profile.rp({_format: 'xml'})) }}"><span class="fas fa-code"></span> </a>
+                    {% if profile.infoUrl %}
+                        <a target="_blank" href="{{ profile.infoUrl }}"><span class="fas fa-info-circle"></span> </a>
+                    {% endif %}
+                </td>
+                <td>
+                    {% for locale in profile.getLocales %}
+                        <a href="{{ path('app_homepage', {_locale: locale.attributes.lang}) }}">{{ locale.country }}</a>
+                    {% endfor %}
+                    {#                    {{ dump(profile.getLocales) }}#}
+                </td>
+                <td>
+                    <a href="{{ path('profile_dashboard', profile.rp) }}">
+                        {{ profile.profileName }}
+                    </a>
+                </td>
+                <td>
+                    {{ profile.uiCount }}
+                </td>
+                <td>
+                    {{ profile.listCount }}
+                </td>
+                <td>
+                    {{ profile.displayCount }}
+                </td>
+                <td>
+                    {{ profile.mdeCount }}
+                </td>
+                <td>
+                    {{ profile.profileDescription }}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}

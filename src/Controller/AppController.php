@@ -15,7 +15,7 @@ class AppController extends AbstractController
     #[Route('/', name: 'app_homepage')]
     public function index(ProfileService $profileService): Response
     {
-        $profiles = $profileService->getProfileFiles();
+        $profiles = $profileService->getXmlProfiles();
         return $this->render('app/index.html.twig', [
             'profiles' => $profiles
         ]);

@@ -41,7 +41,7 @@ class AppMenu extends BaseAdminMenu
 
         $x = $root->add('app')
             ->icon('uil-apps');
-        foreach ($this->profileService->getProfileFiles() as $xmlProfile) {
+        foreach ($this->profileService->getXmlProfiles() as $xmlProfile) {
             $x
                 ->add($xmlProfile->getProfileId())
                 ->route('profile_dashboard', $xmlProfile->getrp())

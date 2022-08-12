@@ -1,0 +1,17 @@
+{% extends 'profile/base.html.twig' %}
+
+{% block title %}Profile {% endblock %}
+
+{% block content %}
+    <h1>{{ xmlProfile.profileName }}</h1>
+
+    {{ dump(labels) }}
+    {{ xmlProfile.rp|json_encode }}
+
+
+    {% for ui in xmlProfile.userInterfaces %}
+        <li>{{ ui }}</li>
+    {% endfor %}
+
+    {{ dump(xmlProfile) }}
+{% endblock %}
