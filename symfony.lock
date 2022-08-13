@@ -49,6 +49,18 @@
             "migrations/.gitignore"
         ]
     },
+    "friendsofsymfony/jsrouting-bundle": {
+        "version": "3.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "2.3",
+            "ref": "a9f2e49180f75cdc71ae279a929c4b2e0638de84"
+        },
+        "files": [
+            "config/routes/fos_js_routing.yaml"
+        ]
+    },
     "knplabs/knp-menu-bundle": {
         "version": "v3.2.0"
     },
@@ -104,6 +116,9 @@
     },
     "survos/base-bundle": {
         "version": "2.4"
+    },
+    "survos/bootstrap-bundle": {
+        "version": "dev-master"
     },
     "survos/core-bundle": {
         "version": "1.0.7"
