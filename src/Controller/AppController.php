@@ -13,11 +13,34 @@ use Twig\Environment;
 class AppController extends AbstractController
 {
     #[Route('/', name: 'app_homepage')]
-    public function index(ProfileService $profileService): Response
+    public function index(): Response
+    {
+        return $this->render('app/homepage.html.twig', [
+        ]);
+    }
+
+    #[Route('/profiles', name: 'app_profiles')]
+    public function profiles(ProfileService $profileService): Response
     {
         $profiles = $profileService->getXmlProfiles();
         return $this->render('app/index.html.twig', [
             'profiles' => $profiles
+        ]);
+    }
+
+    #[Route('/cores', name: 'app_cores')]
+    public function cores(ProfileService $profileService): Response
+    {
+        return $this->render('app/cores.html.twig', [
+            'cores' => $profileService->getCoreTypes()
+        ]);
+    }
+
+    #[Route('/profile-core/{profileId}/{coreId}', name: 'app_profile_core')]
+    public function profileCore(ProfileService $profileService, XmlProfile $xmlProfile): Response
+    {
+        return $this->render('app/cores.html.twig', [
+            'cores' => $profileService->getCoreTypes()
         ]);
     }
 

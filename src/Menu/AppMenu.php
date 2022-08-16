@@ -32,6 +32,18 @@ class AppMenu extends BaseAdminMenu
             ->icon('uil-home') // Icon of entry
             ->route('app_homepage'); // Route of entry
 
+
+        $x = $root->add('Cores')->icon('uil-apps');
+        $x->add('All')
+            ->icon('uil-home') // Icon of entry
+            ->route('app_cores'); // Route of entry
+        foreach ($this->profileService->getCoreTypes() as $core) {
+            $x
+                ->add($core->__toString())
+                ->route('core_show', $core->getrp())
+                ->end();
+        }
+
         // Create a new entry with url
         $root->add('ca')
             ->icon('mdi mdi-google') // Icon of entry
@@ -39,8 +51,7 @@ class AppMenu extends BaseAdminMenu
 
         // Create a nested entry
 
-        $x = $root->add('app')
-            ->icon('uil-apps');
+        $x = $root->add('Profiles')->icon('uil-apps');
         foreach ($this->profileService->getXmlProfiles() as $xmlProfile) {
             $x
                 ->add($xmlProfile->getProfileId())

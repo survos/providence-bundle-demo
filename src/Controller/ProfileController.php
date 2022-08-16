@@ -43,10 +43,16 @@ class ProfileController extends AbstractController
             'ui' => $xmlProfile->getUserInterfaces(),
             'mde' => $xmlProfile->getElements(),
             'list' => $xmlProfile->getLists(),
+            'relationshipTypes' => $xmlProfile->getRelationshipTypes(),
             'sets' => $xmlProfile->getElementSets()
         };
 
         $columns = match($section) {
+            'relationshipTypes' => [
+                'relationshipTypeName',
+                'relationshipTypes',
+//                'dump'
+                ],
             'mde' => [
                 'code',
                 'datatype',

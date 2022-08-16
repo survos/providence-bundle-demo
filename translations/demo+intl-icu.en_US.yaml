@@ -1,0 +1,103 @@
+screen.s1: 'Basic info'
+screen.s2: 'Contact info'
+screen.s3: 'Additional Info'
+screen.s4: Relationships
+screen.additional: 'Use of collection info'
+screen.altnames: 'Alternate names'
+rel.valuer.typename_reverse: 'is valuer of'
+rel.describes.typename: 'is described by'
+rel.describes.typename_reverse: describes
+rel.location.typename: 'is located at'
+rel.location.typename_reverse: 'is location of'
+mde.aquisition_line3: "Clauses restrictives de la source de financement de l'acquisition"
+list.object_sources: 'Object Source'
+list.object_types: 'Object Types'
+list.dimension_types: 'Dimension type'
+rel.staff_member.typename_reverse: 'was staff member fo'
+rel.partner_museum.typename: 'had as partner museum'
+rel.partner_museum.typename_reverse: 'was partner museum for'
+rel.subject.typename: 'has subject'
+rel.subject.typename_reverse: 'is subject'
+mde.internal_notes.description: 'Notes regarding item'
+mde.georeference.description: 'Coordinates documenting the location of the item'
+mde.dimensions_width.description: 'Width of Object'
+mde.dimensions_height.description: 'Height of Object'
+mde.dimensions_type: Type
+mde.line2: 'Address line 1'
+screen.admin: 'Administrative Metadata'
+list.entity_types: 'Entity Types'
+list.date_types: 'Date Types'
+rel.creator.typename: creator
+rel.creator.typename_reverse: creator
+rel.publisher.typename: publisher
+rel.publisher.typename_reverse: publisher
+rel.source.typename: 'is source'
+rel.source.typename_reverse: 'is source of'
+mde.description.description: 'An account of the resource.'
+mde.date: Date
+mde.date.description: 'A point or period of time associated with an event in the life cycle of the resource.'
+mde.biography: Biography
+mde.geonames: GeoNames
+rel.author.typename: author
+rel.author.typename_reverse: author
+rel.described.typename: 'is described by'
+rel.described.typename_reverse: describes
+mde.sex: sex
+mde.sex.description: 'The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.'
+mde.habitat: habitat
+mde.habitat.description: 'A category or description of the habitat in which the Event occurred.'
+ui.objects_ui: 'Object editor'
+ui.entities_ui: 'Entity editor'
+ui.object_lots_ui: 'Object lot editor'
+screen.basic: 'Basic info'
+list.object_statuses: 'Object statuses'
+list.object_label_types: 'Object label types'
+list.object_lot_types: 'Object Lot Types'
+list.object_lot_statuses: 'Object lot statuses'
+list.entity_label_types: 'Entity label types'
+list.language_types: Languages
+rel.related.typename: 'is related to'
+rel.related.typename_reverse: 'is related to'
+rel.part_of.typename: 'is part of'
+rel.part_of.typename_reverse: contains
+rel.artist.typename: artist
+rel.artist.typename_reverse: artist
+rel.curator.typename: curator
+rel.curator.typename_reverse: curator
+rel.editor.typename: editor
+rel.editor.typename_reverse: editor
+rel.performer.typename: performer
+rel.performer.typename_reverse: performer
+rel.producer.typename: producer
+rel.producer.typename_reverse: producer
+rel.speaker.typename: speaker
+rel.speaker.typename_reverse: speaker
+rel.donor.typename: donor
+rel.donor.typename_reverse: donor
+rel.designer.typename: designer
+rel.designer.typename_reverse: designer
+rel.copyright.typename: copyright
+rel.copyright.typename_reverse: copyright
+rel.depicts.typename_reverse: related
+rel.lender.typename: 'is lent from'
+rel.lender.typename_reverse: 'is lender of'
+rel.borrower.typename: borrower
+rel.borrower.typename_reverse: borrower
+rel.venue.typename: venue
+rel.venue.typename_reverse: venue
+rel.part.typename: 'has as part of'
+rel.part.typename_reverse: 'is part of'
+rel.depicts.typename: related
+mde.line4: 'Address line 4'
+mde.telephone: Telephone/Fax
+mde.email: 'Email Address'
+mde.description: 'Physical Description'
+mde.language: Language
+mde.language.description: "The language or languages of the content of the resource. Example: English\n            German\n            Yiddish\n          "
+mde.notes: Notes
+mde.condition_line1: 'Condition Line 1'
+mde.condition_line2: 'Condition Line 2'
+mde.dimensions_depth.description: 'Depth of Object'
+mde.dimensions_weight.description: 'Weight of Object'
+mde.lot_notes: 'Accession Notes'
+mde.credit_line: 'Loan Credit Line'

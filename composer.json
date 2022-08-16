@@ -17,9 +17,7 @@
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.7",
         "sensio/framework-extra-bundle": "^6.1",
-        "survos/base-bundle": "dev-master",
         "survos/grid-bundle": "*@dev",
-        "survos/inspection-bundle": "*@dev",
         "survos/maker-bundle": "^1.0",
         "survos/providence-bundle": "*@dev",
         "symfony/asset": "^6.1",
@@ -116,9 +114,13 @@
         "symfony/web-profiler-bundle": "^6.1"
     },
     "repositories": {
-        "inspection": {
+        "base": {
             "type": "path",
-            "url": "//home/tac/survos/bundles/inspection-bundle"
+            "url": "//home/tac/survos/bundles/base-bundle"
+        },
+        "core": {
+            "type": "path",
+            "url": "//home/tac/survos/bundles/core-bundle"
         },
         "grid": {
             "type": "path",

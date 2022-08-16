@@ -15,9 +15,5 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
-    },
-    "dependencies": {
-        "Hinclude": "^1.2.0",
-        "bootstrap-icons": "^1.9.1"
     }
 }

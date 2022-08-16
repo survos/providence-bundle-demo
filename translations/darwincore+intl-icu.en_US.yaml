@@ -1,0 +1,48 @@
+screen.s1: 'Basic info'
+screen.s2: 'Contact info'
+screen.s3: 'Additional Info'
+screen.s4: Relationships
+screen.additional: 'Use of collection info'
+screen.altnames: 'Alternate names'
+rel.valuer.typename_reverse: 'is valuer of'
+rel.describes.typename: 'is described by'
+rel.describes.typename_reverse: describes
+rel.location.typename: 'is location of'
+rel.location.typename_reverse: 'is located in'
+mde.aquisition_line3: "Clauses restrictives de la source de financement de l'acquisition"
+list.object_sources: 'Object Source'
+list.object_types: 'Object Types'
+list.dimension_types: 'Dimension types'
+rel.staff_member.typename_reverse: 'was staff member fo'
+rel.partner_museum.typename: 'had as partner museum'
+rel.partner_museum.typename_reverse: 'was partner museum for'
+rel.subject.typename: 'has as subject'
+rel.subject.typename_reverse: 'is subject of'
+mde.internal_notes.description: 'Notes regarding item'
+mde.georeference.description: 'Coordinates documenting the location of the item'
+mde.dimensions_width.description: 'Width of object; enter in your preferred units (eg. 10cm)'
+mde.dimensions_height.description: 'Height of object; enter in your preferred units (eg. 10cm)'
+mde.dimensions_type: Type
+mde.line2: 'Address line 2'
+screen.admin: 'Admin info'
+list.entity_types: 'Entity Types'
+list.date_types: 'Date Types'
+rel.creator.typename: creator
+rel.creator.typename_reverse: creator
+rel.publisher.typename: 'was published by'
+rel.publisher.typename_reverse: published
+rel.source.typename: 'is source'
+rel.source.typename_reverse: 'is source of'
+mde.description.description: 'An account of the resource.'
+mde.date: Date
+mde.date.description: 'A point or period of time associated with an event in the life cycle of the resource.'
+mde.biography: Biography
+mde.geonames: GeoNames
+rel.author.typename: author
+rel.author.typename_reverse: author
+rel.described.typename: 'is described by'
+rel.described.typename_reverse: describes
+mde.sex: sex
+mde.sex.description: 'The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.'
+mde.habitat: habitat
+mde.habitat.description: 'A category or description of the habitat in which the Event occurred.'

@@ -1,0 +1,13 @@
+screen.s1: 'Information basique'
+screen.s2: Contact
+screen.s3: 'Information complémentaire'
+screen.s4: Relations
+screen.basic: 'Information basique'
+screen.additional: "Information sur l'utilisation de la collection"
+screen.altnames: 'Noms alternatifs'
+rel.auditor.typename: 'a eu comme auditeur'
+rel.auditor.typename_reverse: "était l'auditeur de"
+rel.describes.typename: 'est décrit par'
+rel.describes.typename_reverse: décrit
+rel.location.typename: "est l'emplacement de"
+rel.location.typename_reverse: 'est localisé à'

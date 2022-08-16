@@ -1,7 +1,5 @@
 {% extends 'profile/base.html.twig' %}
 
-{% block title %}Profile {% endblock %}
-
 {% block content %}
     <h1>{{ xmlProfile.profileName }} {{ property }}</h1>
 
@@ -18,6 +16,10 @@
         {% block system row.system ? 'Sy': '-'%}
         {% block vocabulary row.vocabulary ? 'V ': '-'%}
 
+        {% block relationshipTypeName %}
+        {{ row.name }}
+        {% endblock %}
+
         {% block code %}
             {{ row.hierarchical|default(false) ? 'Hier' }}
             {{ row.system|default(false) ? 'Sys' }}
@@ -29,6 +31,48 @@
             </a>
             {% endif %}
         {% endblock %}
+
+        {% block relationshipTypes %}
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Subtypes</th>
+                    <th>Left</th>
+                    <th>Right</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for type in row.types() %}
+                    <tr>
+                        <td>
+                            <code>
+                                {{ type.code }}
+                            </code>
+                        </td>
+                        <td>
+                            {{ type.subTypeLeft }} /
+                            {{ type.subTypeRight }}
+                        </td>
+                        <td>
+                            {{ row.left }} {{ type._typename|trans({}, xmlProfile.profileId) }} {{ row.right}}
+                        </td>
+                        <td>
+                            {{ row.right }} {{ type._typename_reverse|trans({}, xmlProfile.profileId) }} {{ row.left}}
+
+                        </td>
+
+                    </tr>
+                    {#                {{ dump(type) }}#}
+
+                {% endfor %}
+                </tbody>
+
+            </table>
+
+    {% endblock %}
+
 
         {% block items %}
             <table>

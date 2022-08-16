@@ -22,7 +22,7 @@ class ProfileMenu extends BaseAdminMenu
         $root->add('dashboard')->route('profile_dashboard', $xmlProfile->getRp());
         $root->add('labels')->route('profile_labels', $xmlProfile->getRp());
 
-        foreach (['mde','list','ui','display'] as $prefix) {
+        foreach (['mde','list','ui','display', 'relationshipTypes'] as $prefix) {
             $root->add($prefix)
                 ->badge($propertyAccessor->getValue($xmlProfile, $prefix . 'Count'))
                 ->route('profile_show', $xmlProfile->getRp(['section'  => $prefix]))

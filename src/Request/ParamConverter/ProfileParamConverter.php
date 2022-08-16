@@ -17,8 +17,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 class ProfileParamConverter implements ParamConverterInterface
 {
     public function __construct(
-        private ProfileService $profileService,
-        private ManagerRegistry $registry)
+        private ProfileService $profileService)
     {
     }
 

@@ -1,0 +1,1725 @@
+ui.object_cataloguers_ui: 'Object editor'
+screen.s1: 'Basic info'
+screen.s2: 'Contact info'
+screen.history: 'Object history'
+screen.s3: 'Additional Info'
+screen.s4: Relationships
+screen.s5: Valuation
+screen.s6: Indeminity/insurance
+screen.s7A: 'Object entry'
+screen.s7B: 'Object exit'
+screen.s7C: Movement
+screen.s8A: Acquisition
+screen.s8B: Disposal
+screen.s9A: 'Loan in'
+screen.s9B: 'Loan out'
+screen.s10: Relationships
+screen.keywords: Keywords
+screen.media: Media
+screen.links: Links
+ui.entity_cataloguers_ui: 'Entity editor'
+ui.place_cataloguers_ui: 'Place editor'
+screen.additional: 'Use of collection info'
+screen.relationships: Relationships
+ui.occurrence_cataloguers_ui: 'Procedure editor'
+screen.basic: 'Basic info'
+ui.collection_cataloguers_ui: 'Collection editor'
+screen.altnames: 'Alternate names'
+ui.storage_locations_cataloguers_ui: 'Storage locations editor'
+screen.location: Location
+screen.contents: Contents
+ui.object_lots_cataloguers_ui: 'Object lots editor'
+ui.set_cataloguers_ui: 'Set editor'
+screen.items: Items
+ui.set_item_cataloguers_ui: 'Set item editor'
+ui.representation_cataloguers_ui: 'Object representation editor'
+screen.annotations: Annotations
+ui.representation_annotation_cataloguers_ui: 'Representation annotation editor'
+list.aat_vocabulary: 'Art &amp; Architecture Thesaurus'
+list.object_sources: 'Object Source'
+list.object_types: 'Object Types'
+list.entity_types: 'Entity Types'
+list.entity_sources: 'Entity sources'
+list.place_hierarchies: 'Place hierarchies'
+list.place_sources: 'Place sources'
+list.occurrence_types: 'Occurrence types'
+list.occurrence_sources: 'Occurrence sources'
+list.collection_types: 'Collection types'
+list.collection_sources: 'Collection sources'
+list.storage_location_types: 'Storage location types'
+list.fivestar_rating: 'Five star rating'
+list.object_audit_result: 'Object Audit Result'
+list.object_audit_types: 'Object Audit Type'
+list.ownership_category: 'Ownership category'
+list.other_number_type: 'Other number type'
+list.technique_types: Technique
+list.techniqueType_types: 'Technique type'
+list.right_type: 'Right type'
+list.access_category: 'Access category'
+list.audience_types: 'Audience types'
+list.language_types: Languages
+list.label_reason: 'Label reason'
+list.object_display_status: 'Object display status'
+list.content_event_types: 'Content - event type'
+list.content_object_types: 'Content - object type'
+list.content_other_types: 'Content - other type'
+list.valuation_type: 'Object valuation type'
+list.status_types: 'Object valuation type'
+list.audit_method_types: 'Audit method types'
+list.audit_types: 'Audit types'
+list.assessment_method_types: 'Assessment method types'
+list.assessment_reason_types: 'Assessment reason types'
+list.conservation_method_types: 'Conservation method types'
+list.disposal_method_types: 'Disposal method types'
+list.loaned_object_status_types: 'Loaned object status types'
+list.loss_damage_method_types: 'Loss/damage method types'
+list.movement_method_types: 'Movement method types'
+list.entry_method_types: 'Entry method types'
+list.entry_reason_types: 'Entry reason types'
+list.exit_method_types: 'Exit method types'
+list.process_method_types: 'process method types'
+list.use_method_types: 'use method types'
+list.address_types: 'address types'
+list.date_association_types: 'date association types'
+list.date_certainty_types: 'date certainty types'
+list.location_types: 'Location  types'
+list.org_function_types: 'Organisation function types'
+list.org_group_types: 'Organisation group types'
+list.peoples_linguistic_types: "People's linguistic types"
+list.sex_types: 'sex types'
+list.style_types: 'style types'
+list.place_feature_types: 'place feature types'
+list.place_name_types: 'place name types'
+list.place_refno_types: 'place reference number types'
+list.record_types: 'record types'
+list.reference_types: 'Reference types'
+list.dimension_types: 'Dimension type'
+rel.assessor.typename: 'had as assessor'
+rel.assessor.typename_reverse: 'was assessor of'
+rel.auditor.typename: 'had as auditor'
+rel.auditor.typename_reverse: 'was auditor of'
+rel.authorizer.typename: 'had as authorizer'
+rel.authorizer.typename_reverse: 'was authorized by'
+rel.borrower.typename: borrower
+rel.borrower.typename_reverse: borrower
+rel.collector.typename: 'had as collector'
+rel.collector.typename_reverse: 'is collector of'
+rel.conesrvator.typename: 'had as conservator'
+rel.conesrvator.typename_reverse: 'was conservator of'
+rel.creator.typename: creator
+rel.creator.typename_reverse: creator
+rel.depositor.typename: 'had as depositor'
+rel.depositor.typename_reverse: 'was depositor of'
+rel.editor.typename: editor
+rel.editor.typename_reverse: editor
+rel.insurer.typename: 'had as insurer'
+rel.insurer.typename_reverse: 'was insurer for'
+rel.lender.typename: 'is lent from'
+rel.lender.typename_reverse: 'is lender of'
+rel.organizer.typename: 'had as organizer'
+rel.organizer.typename_reverse: 'was organizer of'
+rel.owner.typename: 'had as owner'
+rel.owner.typename_reverse: 'was owner of'
+rel.processor.typename: 'had as processor'
+rel.processor.typename_reverse: 'was processor for'
+rel.producer.typename: producer
+rel.producer.typename_reverse: producer
+rel.recipient.typename: 'had as recipient'
+rel.recipient.typename_reverse: 'was recipient of'
+rel.recorder.typename: 'had as recorder'
+rel.recorder.typename_reverse: 'was recorder of'
+rel.reporter.typename: 'had as reporter'
+rel.reporter.typename_reverse: 'was reporter of'
+rel.requester.typename: 'had as requester'
+rel.requester.typename_reverse: 'was requester of'
+rel.right_holder.typename: 'had as rights holder'
+rel.right_holder.typename_reverse: 'was rights holder of'
+rel.shipper.typename: 'had as shipper'
+rel.shipper.typename_reverse: 'was shipper for'
+rel.source.typename: source
+rel.source.typename_reverse: source
+rel.valuer.typename: 'had as valuer'
+rel.valuer.typename_reverse: 'is valuer of'
+rel.part_of.typename: 'is part of'
+rel.part_of.typename_reverse: contains
+rel.created.typename: 'was created at'
+rel.created.typename_reverse: 'was creation location of'
+rel.exit_destination.typename: 'has as exit destination'
+rel.exit_destination.typename_reverse: 'is exit destination for'
+rel.field_collection.typename: 'was field collection at'
+rel.field_collection.typename_reverse: 'was field collection of'
+rel.located.typename: 'was located at'
+rel.located.typename_reverse: 'was location of'
+rel.depicts.typename: depicts
+rel.depicts.typename_reverse: 'is depicted by'
+rel.describes.typename: 'is described by'
+rel.describes.typename_reverse: describes
+rel.ownership_place.typename: 'has as ownership place'
+rel.ownership_place.typename_reverse: 'was ownership place for'
+rel.production_place.typename: 'has as production place'
+rel.production_place.typename_reverse: 'was production place for'
+rel.venue.typename: venue
+rel.venue.typename_reverse: venue
+rel.used.typename: 'was used in'
+rel.used.typename_reverse: used
+rel.related.typename: 'is related to'
+rel.related.typename_reverse: 'is related to'
+rel.similar.typename: 'is similar to'
+rel.similar.typename_reverse: 'is similar to'
+rel.duplicate.typename: 'is duplicate of'
+rel.duplicate.typename_reverse: 'is duplicate of'
+rel.described.typename: 'is described by'
+rel.described.typename_reverse: describes
+rel.child.typename: 'is child of'
+rel.child.typename_reverse: 'is parent of'
+rel.spouse.typename: 'is spouse of'
+rel.spouse.typename_reverse: 'is spouse of'
+rel.birthplace.typename: 'was born at'
+rel.birthplace.typename_reverse: 'was birthplace of'
+rel.residence.typename: 'resided at'
+rel.residence.typename_reverse: 'was residence of'
+rel.workplace.typename: 'worked at'
+rel.workplace.typename_reverse: 'was workplace of'
+rel.ownership.typename: owned
+rel.ownership.typename_reverse: 'was owned by'
+rel.built_by.typename: built
+rel.built_by.typename_reverse: 'was built by'
+rel.curator.typename: curator
+rel.curator.typename_reverse: curator
+rel.conservator.typename: 'had as conservator'
+rel.conservator.typename_reverse: 'was conservator of'
+rel.donor.typename: 'was donated by'
+rel.donor.typename_reverse: 'is donor of'
+rel.provider.typename: 'was provided by'
+rel.provider.typename_reverse: 'is provider of'
+rel.originates.typename: 'originates from'
+rel.originates.typename_reverse: 'is origination location of'
+rel.subject.typename: 'has subject'
+rel.subject.typename_reverse: 'is subject'
+rel.location.typename: 'is location of'
+rel.location.typename_reverse: 'is located in'
+rel.illustrated.typename: 'is illustrated by'
+rel.illustrated.typename_reverse: illustrates
+mde.description: Description
+mde.description.description: 'An account of the resource.'
+mde.description_source: 'Source of description'
+mde.description_source.description: 'Source of item description. This should be a formal citation if possible. For informal sources a narrative description is acceptable.'
+mde.caption: Caption
+mde.caption.description: 'Short descriptive caption for item.'
+mde.subtitle: Caption
+mde.subtitle.description: 'Short descriptive subtitle for item.'
+mde.external_link: 'External links'
+mde.url_line1: 'Web site name'
+mde.url_line2: URL
+mde.georeference: Georeference
+mde.georeference.description: 'Coordinates documenting the location of the item'
+mde.geonames: GeoNames
+mde.geonames.description: 'A Geographic lookup that takes search text, passes it to the GeoNames search service and provides a dropdown with search results (ordered by score). Selected geoname is stored as both text (name, country, continent and ID) and the service URL identifier.'
+mde.lcsh_terms: 'Library of Congress Subject Headings'
+mde.lcsh_terms.description: 'Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.'
+mde.internal_notes: 'Notes (internal use only)'
+mde.internal_notes.description: 'Notes regarding item'
+mde.objectAuditCategory: 'Object audit category'
+mde.objectAuditCategory.description: 'A code indicating the prioity of an object for auditing purposes.'
+mde.objectAuditDate: 'Object audit date'
+mde.objectAuditDate.description: 'The date an object was last checked in its location.'
+mde.objectAuditNote: 'Object audit note'
+mde.objectAuditNote.description: 'Additional information about the result or circumstances of the audit of an object.'
+mde.objectAuditResult: 'Object audit result'
+mde.objectAuditResult.description: 'The result of an audit of an object.'
+mde.objectAuditType: 'Object audit type'
+mde.objectAuditType.description: 'The type of audit carried out on an object.'
+mde.fieldCollectionDate: 'Field collection date'
+mde.fieldCollectionDate.description: 'The date an object is collected in the field.'
+mde.fieldCollectionEventName: 'Field collection event name'
+mde.fieldCollectionEventName.description: 'The name of the event at which an object was collected. Maintian a list of Standard terms.'
+mde.fieldCollectionEventRefNo: 'Field collection event reference number'
+mde.fieldCollectionEventRefNo.description: 'The unique number assigned to a field collection event. The number should also refer to a file containing written documentation about the event.'
+mde.fieldCollectionMethod: 'Field collection method'
+mde.fieldCollectionMethod.description: 'The method used to excavate or collect an object in the field. Maintain a standard list of terms.'
+mde.fieldCollectionNote: 'Field collection note'
+mde.fieldCollectionNote.description: 'Additional information about the place or method of field collection or excavation.'
+mde.fieldCollectionNo: 'Field collection number'
+mde.fieldCollectionNo.description: 'A number or code assigned to an object in the field before an Entry number or Object number is assigned.'
+mde.FieldCollectionPlace: 'Field collection place'
+mde.FieldCollectionPlace.description: 'The place where an object was excavated or collected in the field.'
+mde.FieldCollectionSource: 'Field collection source'
+mde.FieldCollectionSource.description: 'The social, socio-professional, or ethnic groups from which an object was collected or bought. May be different from the group of production and/or the group use.'
+mde.fieldCollector: 'Field collector'
+mde.fieldCollector.description: 'The person or organisation responsible for collecting a specimen or object in the field.'
+mde.geoComplexName: 'Geological complex name'
+mde.geoComplexName.description: 'The name of the geological complex from which a geological specimin was collected. Maintain a list of standard terms.'
+mde.habitat: habitat
+mde.habitat.description: 'A category or description of the habitat in which the Event occurred.'
+mde.habitatNote: 'Habitat note'
+mde.habitatNote.description: 'Additional information about the habitat of an object which has not been recorded elsewhere using controlled terminology.'
+mde.stratigraphicInfo: 'Stratigraphic information'
+mde.stratigraphicInfo.description: 'To be used to record statigraphic information. Refer to the SPECTRUM documentation for description of each element.'
+mde.stratigraphic_line1: 'Stratigraphic unit name'
+mde.stratigraphic_line2: 'Stratigraphic unit type'
+mde.stratigraphic_line3: 'Stratigraphic unit note'
+mde.completenessInfo: 'Completeness information'
+mde.completenessInfo.description: 'To be used to record completeness information of an object. Refer to the SPECTRUM documentation for description of each element.'
+mde.completeness_line1: Completeness
+mde.completeness_line2: 'Completeness date'
+mde.completeness_line3: 'Completeness note'
+mde.conditionInfo: 'Condition information'
+mde.conditionInfo.description: 'To be used to record condition information of an object. Refer to the SPECTRUM documentation for description of each element.'
+mde.condition_line1: 'Condition Line 1'
+mde.condition_line2: 'Condition Line 2'
+mde.condition_line3: 'Condition note'
+mde.ConservTreatPriority: 'Conservation treatment policy'
+mde.ConservTreatPriority.description: "A term describing an object's need for Conservation treatment."
+mde.EnvironmentalCondition: 'Environmental condition'
+mde.EnvironmentalCondition.description: 'A record of the environmental conditions in which an object kept.'
+mde.environCon_line1: 'Environmental condition note'
+mde.environCon_line2: 'Environmental condition note date'
+mde.nextAssessmentDate: 'Next condition check/assessment date'
+mde.nextAssessmentDate.description: 'The date on which the next condition check or technical assessment is due.'
+mde.techAssessment: 'Technical Assessment'
+mde.techAssessment.description: 'Detailed assessment of the condition of an object and the required treatment.'
+mde.techAss_line1: 'Technical assessment'
+mde.techAss_line2: 'Technical assessment date'
+mde.harzardInfo: 'Hazard information'
+mde.harzardInfo.description: 'To be used to record hazard information of an object. Refer to the SPECTRUM documentation for description of each element.'
+mde.hazard_line1: Hazard
+mde.hazard_line2: 'Hazard date'
+mde.hazard_line3: 'Hazard note'
+mde.conservationMaterial: 'Conservation material'
+mde.conservationMaterial.description: 'The materials used in the conservation of an object.'
+mde.conservationNote: 'Conservation note'
+mde.conservationNote.description: 'Additional information about the conservation of an object which has not been recorded elsewhere using controlled terminology.'
+mde.recallDate: 'Recall date'
+mde.recallDate.description: 'The date on which the next stage of the conservation process is due.'
+mde.treatmentDate: 'Treatment date'
+mde.treatmentDate.description: 'The date on which conservation treatment is completed.'
+mde.treatmentReport: 'Treatment report'
+mde.treatmentReport.description: 'Detailed description of the conservation treatment undergone by an object.'
+mde.age: Age
+mde.age.description: 'The numeric age of a natural science specimin when it died. Use Age unit to describe the unit of measurement used and Age qualifier to qualify the information. Use Phase for a textual description of Age.'
+mde.ageQualifier: 'Age qualifier'
+mde.ageQualifier.description: 'A qualification of the statement of the Age of a natural science specimen.'
+mde.ageUnit: 'Age unit'
+mde.ageUnit.description: 'The unit of measurement used to describe the Age of a natural history specimin.'
+mde.colour: Colour
+mde.colour.description: 'The colour of an object.'
+mde.contentActivity: 'Content - activity'
+mde.contentActivity.description: 'An activity depicted in or described by an object.'
+mde.contentConcept: 'Content - concept'
+mde.contentConcept.description: 'A concept depicted in or described by an object.'
+mde.contentDate: 'Content - date'
+mde.contentDate.description: 'A date depicted in or described by an object'
+mde.contentDescription: 'Content - description'
+mde.contentDescription.description: "A general description of a depiction in an object, or description of an object without making interpretation. This may include descriptions of the content of all audio and visual works. (Use Brief description and Physical description to describe an object's other features.)"
+mde.contentEvent: 'Content event'
+mde.contentEvent.description: 'An event depicted in or described by an object.'
+mde.contentEvent_line1: 'Content - event name'
+mde.contentEvent_line2: 'Content - event type'
+mde.contentNote: 'Content - note'
+mde.contentNote.description: "Additional information about an object's content which has not been recorded elsewhere using controlled terminology."
+mde.contentObject: 'Content object'
+mde.contentObject.description: 'An object depicted in or described by another object.'
+mde.contentObject_line1: 'Content - object'
+mde.contentObject_line2: 'Content - object type'
+mde.contentother: 'Content other'
+mde.contentother.description: 'An aspect of the content depicted in or described in an object'
+mde.contentother_line1: 'Content - other'
+mde.contentother_line2: 'Content - other type'
+mde.contentPosition: 'Content - position'
+mde.contentPosition.description: 'The position on an object of a depiction or description.'
+mde.copyNumber: 'Copy number'
+mde.copyNumber.description: 'A number assigned to an object by the maker within a limited edition or special run.'
+mde.dimensions: Dimensions
+mde.dimensions.description: 'Physical dimensions of object'
+mde.dimensions_width: Width
+mde.dimensions_width.description: 'Width of Object'
+mde.dimensions_height: Height
+mde.dimensions_height.description: 'Height of Object'
+mde.dimensions_depth: Depth
+mde.dimensions_depth.description: 'Depth of Object'
+mde.circumference: Circumference
+mde.circumference.description: 'circumference of object; enter in your preferred units (eg. 10cm)'
+mde.dimensions_type: Type
+mde.editionNumber: 'Edition number'
+mde.editionNumber.description: 'A number assigned to a group of objects produced at the same time by the maker.'
+mde.form: Form
+mde.form.description: 'The method used to mount or preserve a specimen.'
+mde.inscription: Inscription
+mde.materialInfo: 'Material information'
+mde.materialInfo.description: 'The basic materials and media from which an object is constructed.'
+mde.material_line1: Material
+mde.material_line2: 'Materal component'
+mde.material_line3: 'Material name'
+mde.material_line4: 'Material source'
+mde.objectStatus: 'Object status'
+mde.objectStatus.description: 'A statement of the standing of a natural science specimen or another object in relation to others in existence.'
+mde.phase: Phase
+mde.phase.description: 'A textual expression of the age or developmental phase of a natural science specimen.'
+mde.physicalDescription: 'Physical description'
+mde.physicalDescription.description: 'General visual appearance of an object.'
+mde.sex: sex
+mde.sex.description: 'The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.'
+mde.style: Style
+mde.style.description: 'Styles or schools relating to an object.'
+mde.technicalAttribute: 'Technical attribute'
+mde.technicalAttribute.description: 'The name of a technical attribute possessed by an object which can be described and quantified.'
+mde.objectComponent: 'Object component'
+mde.objectComponent.description: 'The non-seperable part or component of an object which is being described.'
+mde.component_line1: 'Object component name'
+mde.component_line2: 'Object component information'
+mde.assocActivityInfo: 'Associated activity'
+mde.assocActivityInfo.description: 'An activity associated an object or group of objects'
+mde.assocAct_line1: 'Associated activity'
+mde.assocAct_line2: 'Associated activity note'
+mde.assocConcept: 'Associated concept'
+mde.assocConcept.description: 'A concept associated with an object or group of objects.'
+mde.assocCulturalAffinity: 'Associated cultural affinity'
+mde.assocCulturalAffinity.description: 'A wider cultural context to which an object or group of objects relates.'
+mde.assocDate: 'Associated date'
+mde.assocDate.description: 'A date associated with an object or group of objects.'
+mde.assocNote: 'Associated note'
+mde.assocNote.description: 'A narrative description of the nature of the association of an organisation, people, person or place, with the object being recorded (e.g. design influences and design impact).'
+mde.objectHistoryNote: 'Object history note'
+mde.objectHistoryNote.description: 'The history of an object, including its creation, owners, vendors and the circumstances surrounding such events. Record information here which has not been recorded elsewhere using controlled terminology.'
+mde.ownershipCategory: 'Ownership category'
+mde.ownershipCategory.description: 'A term defining the type of ownership exisitng for an object before title was transferred to the organization.'
+mde.ownershipDates: 'Ownership dates'
+mde.ownershipDates.description: 'The dates when a People'
+mde.ownershipExchangeMethod: 'Ownership exchange method'
+mde.ownershipExchangeMethod.description: 'The means by which title to an object is transferred between two Owners, before title was tranferred to the organisation.'
+mde.ownershipExchangeNote: 'Ownership exchange note'
+mde.ownershipExchangeNote.description: 'Additional information about the ownership exchange, before title was transferred to the organisation, which has not been recorded elsewhere using controlled terminology.'
+mde.ownershipExchangePrice: 'Ownership exchange price'
+mde.ownershipExchangePrice.description: 'The total price paid for an object at when the title passed between two owners, including taxes for which the transfer is liable.'
+mde.usageInfo: Usage
+mde.usageInfo.description: 'A single term describing the use of a particular kind of object.'
+mde.usage_line1: Usage
+mde.usage_line2: 'Usage note'
+mde.otherNumber: 'Other number'
+mde.otherNumber.description: 'An alternate number for an object other than the Object number.'
+mde.objectNo_line1: 'Other number'
+mde.objectNo_line2: 'Other number type'
+mde.briefDescription: 'Brief description'
+mde.briefDescription.description: 'A text description of an object in approximately one sentence; normally used for administrative and identification purposes. It records the most important information from a number of seperate descriptive units of information.'
+mde.comments: Comments
+mde.comments.description: 'Additional comments made about an object by visitors, curators or researchers.'
+mde.distinguishingFeatures: 'Distinguishing features'
+mde.distinguishingFeatures.description: 'A description of features which could uniquely identify an object, bringing together details from other groups of units of information such as Identification, Inscription, Condition which could in a sentence uniquely identify an object.'
+mde.responsibleDept: 'Responsible Department'
+mde.responsibleDept.description: 'The responsible department. Omitted from published list, but referred to.'
+mde.ownerExperience: "Owner's personal experience"
+mde.ownerExperience.description: 'A description of how and why a particular object or group of objects is known to have been of particular importance to a previous owner.'
+mde.ownerResponse: "Owner's personal response"
+mde.ownerResponse.description: 'A description of the way in which a previous owner responded intuitively to the object.'
+mde.ownerReference: "Owner's reference"
+mde.ownerReference.description: 'Documentation of any additional reference to the object provided by a previous owner, e.g. an event, object, document, person or organisation.'
+mde.ownerContribNote: "Owner's contribution note"
+mde.ownerContribNote.description: "Any observations or comments on a previous owner's contributions which the organisation whishes to record, e.g. the way in which the information was obtained or any discrepancies noted."
+mde.objectProductionDate: 'Object production date'
+mde.objectProductionDate.description: 'The date when a stage in the design, creation or manufacture of an object took place.'
+mde.objectProductionNote: 'Object production note'
+mde.objectProductionNote.description: "Additional information about an object's production."
+mde.objectProductionReason: 'Object production reason'
+mde.objectProductionReason.description: 'The reason why an object was produced.'
+mde.techniqueInfo: Technique
+mde.techniqueInfo.description: Processes
+mde.technique_line1: Technique
+mde.technique_line2: 'Technique type'
+mde.displayRecommendations: 'Display recommendations'
+mde.displayRecommendations.description: 'Specific recommendations for the display of an object in addition to the measures which would normally be taken for that type of object.'
+mde.environRecommendations: 'Environmental recommendations'
+mde.environRecommendations.description: 'Specific recommendations for the environment in which an object is to be displayed or stored in addition to the measures which would normally be taken for that type of object.'
+mde.packingRecommendations: 'Packing recommendations'
+mde.packingRecommendations.description: 'Specific recommendations for packing an object in addition to the measures which would normally be taken for that type of object.'
+mde.securityRecommendations: 'Security recommendations'
+mde.securityRecommendations.description: 'Specific recommendations for the security of an object in addition to the measures which would normally be taken for that type of object.'
+mde.specialRequirements: 'Special requirements'
+mde.specialRequirements.description: 'Requirements that may be unique or special to a particular object.'
+mde.storageRequirements: 'Storage requirements'
+mde.storageRequirements.description: 'Specific recommendations for the storage of an object in addition to the measures which would normally be taken for that type of object.'
+mde.salvagePriorityInfo: 'Salvage priority'
+mde.salvagePriorityInfo.description: 'A record of the salvage priority assigned to an object or group of objects.'
+mde.salvage_line1: 'Salvage priority code'
+mde.salvage_line2: 'Salvage priority code date'
+mde.legalRequirements: 'Legal/licence requirements'
+mde.legalRequirements.description: "Details of any legislation (other than associated rights) which applies to an object while in the organisation's custody, whether acquired or not."
+mde.legalRequirementsHeld: 'Legal/licence requirements held'
+mde.legalRequirementsHeld.description: "Details of any licences or certificates held (other than copyright or other rights of use or performance) which applies to an object while in the organisation's custody, whether acquired or not."
+mde.legal_line1: 'Legal/licence requirements held'
+mde.legal_line2: 'Legal/licence requirements held begin date'
+mde.legal_line3: 'Legal/licence requirements held end date'
+mde.legal_line4: 'Legal/licence requirements held number'
+mde.legal_line5: 'Legal/licence requirements held renewal date'
+mde.rightBeginDate: 'Right begin date'
+mde.rightBeginDate.description: 'The first date on which a right is current.'
+mde.rightEndDate: 'Right end date'
+mde.rightEndDate.description: 'The last date on which a right is current.'
+mde.rightNote: 'Right note'
+mde.rightNote.description: 'Any details of the rights not covered elsewhere.'
+mde.rightRefNo: 'Right reference number'
+mde.rightRefNo.description: 'A unique number identifying a right.'
+mde.rightType: 'Right type'
+mde.rightType.description: 'The specific type of right being recorded in relation to an object, document, photograph, work of art or record.'
+mde.accessCategory: 'Access category'
+mde.accessCategory.description: 'A record of the level of access allowed to an object or group of objects based on their needs or significance.'
+mde.accessCat_line1: 'Access category'
+mde.accessCat_line2: 'Access category date'
+mde.accessCat_line3: 'Access category note'
+mde.creditLine: 'Credit line'
+mde.creditLine.description: 'Text acknowledging a donation or loan'
+mde.labelinfo: 'Label information'
+mde.labelinfo.description: 'The text used for an exhibition or display label or a handlist or catalogue.'
+mde.label_line1: 'Label text'
+mde.label_line2: 'label audience'
+mde.label_line3: 'Label language'
+mde.label_line4: 'Label note'
+mde.label_line5: 'Label reason'
+mde.label_line6: 'Label text date'
+mde.objectDisplayStatus: 'Object display status'
+mde.objectDisplayStatus.description: 'The stage in the Use of collections procedure which an individual object to be displayed, has reached.'
+mde.diplay_line1: 'Object display status'
+mde.display_line2: 'Object display status date'
+mde.objectValuation: 'Object valuation'
+mde.objectValuation.description: 'The current worth of an object as assigned by a Valuer.'
+mde.objectValuationDate: 'Object valuation date'
+mde.objectValuationDate.description: 'The date the valuation of an object is assigned.'
+mde.objectValuationNote: 'Object valuation note'
+mde.objectValuationNote.description: 'Additional information about the valuation of an object or group of objects.'
+mde.objectValuationRenewal: 'Object valuation renewal'
+mde.objectValuationRenewal.description: 'The date the valuation of an object is assigned.'
+mde.valuation_line1: 'Object valuation renewal date'
+mde.valuation_line2: 'Object valuation type'
+mde.authorisationDate: 'Authorisation date'
+mde.authorisationDate.description: 'The date on which an authoriser gives final approval for a procedure to take place.'
+mde.costInfo: Cost
+mde.costInfo.description: 'The amount paid in the course of a procedure.'
+mde.cost_line1: Cost
+mde.cost_line2: 'Cost note'
+mde.procedureDates: 'Procedure dates'
+mde.procedureDates.description: 'The dates on which a procedure is begun and ended.'
+mde.date_line1: 'Begin date'
+mde.date_line2: 'End date'
+mde.procedureNote: 'Procedure Note'
+mde.procedureNote.description: 'Additional information about procedure which has not been recorded elsewhere using controlled terminology.'
+mde.procedureTitle: 'Procedure title'
+mde.procedureTitle.description: 'The name assigned to a procedure or project carried.'
+mde.Reason: Reason
+mde.Reason.description: 'The reason for the procedure taking place.'
+mde.requestInfo: Request
+mde.requestInfo.description: 'Details provided by the person or organisation making a request for a procedure or process to occur.'
+mde.request_line1: Request
+mde.request_line2: 'Request date'
+mde.request_line3: Requester
+mde.requestedActionDate: 'Requested action date'
+mde.requestedActionDate.description: 'The date on which a requester wishes for a procedure to occur.'
+mde.scheduledBeginDate: 'Scheduled begin date'
+mde.scheduledBeginDate.description: 'The date on which a procedure is scheduled to begin.'
+mde.scheduledEndDate: 'Scheduled end date'
+mde.scheduledEndDate.description: 'The date on which a procedure is scheduled to end.'
+mde.statusInfo: Status
+mde.statusInfo.description: 'The stage in the procedure which an individual object has reached.'
+mde.status_line1: Status
+mde.status_line2: 'Status date'
+mde.status_line3: 'Status review date'
+mde.accessionDate: 'Accession date'
+mde.accessionDate.description: 'The date on which an object formally enters the collections and is recorded in the accessions register.'
+mde.acquisitionAuthorisation: 'Acquisition authorisation'
+mde.acquisitionAuthorisation.description: 'The name of a member of staff giving final approval for the acquisition to proceed. The date on which the Acquisition authoriser gives final approval for an acquisition to proceed.'
+mde.authorisation_line1: Authoriser
+mde.authorisation_line2: 'Aquisition authorisation date'
+mde.acquisitionDate: 'Acquisition date'
+mde.acquisitionDate.description: 'The date on which title to an object or group of objects is transferred to the organisation.'
+mde.aquisitionFundingInfo: 'Aquisition Funding Info'
+mde.aquisitionFundingInfo.description: 'The funding used to support the acquisition of an object.'
+mde.aquisition_line1: 'Aquisition funding'
+mde.aquisition_line2: 'Aquisition funding source'
+mde.aquisition_line3: "Clauses restrictives de la source de financement de l'acquisition"
+mde.acquisitionMethod: 'Acquisition method'
+mde.acquisitionMethod.description: 'The means by which title to an object is formally transferred to the organisation.'
+mde.acquisitionNote: 'Acquisition note'
+mde.acquisitionNote.description: 'General information about the acquisition.'
+mde.acquisitionProvisos: 'Acquisition provisos'
+mde.acquisitionProvisos.description: 'Restrictions applying to the objects in a single acquisition'
+mde.acquisitionReason: 'Acquisition reason'
+mde.acquisitionReason.description: 'The reason or justification for an acquisition.'
+mde.acquisitionRefNo: 'Acquisition reference number'
+mde.acquisitionRefNo.description: 'A unique identifying number for information on the acquisition of an object or group of objects. It should serve as the reference to written documentation of a valuation. This will normally be the object number.'
+mde.acquisitionSource: 'Acquisition source'
+mde.acquisitionSource.description: 'The People'
+mde.groupPurchasePrice: 'Group purchase price'
+mde.groupPurchasePrice.description: 'The total price paid for a group of objects at acquisition'
+mde.objectOfferPrice: 'Object offer price'
+mde.objectOfferPrice.description: 'The price at which an object is offered for sale to the organisation.'
+mde.objectPurchaseOffer: 'Object purchaser offer price'
+mde.objectPurchaseOffer.description: 'The price which the organisation offers for the purchase of an object.'
+mde.objectPurchasePrice: 'Object purchase price'
+mde.objectPurchasePrice.description: 'The total price paid for an object at acquisition'
+mde.originalPurchasePrice: 'Original object purchase price'
+mde.originalPurchasePrice.description: 'The price paid for an object in the original currency at the time of purchase.'
+mde.price_line1: 'Original object purchase price'
+mde.price_line2: 'Original object purchase price denomination'
+mde.titleNo: 'Transfer of title number'
+mde.titleNo.description: 'A unique identifying number for a transfer of title or acquisition event. It should serve as the reference to written documentation of a transfer of title or acquisition process.The number may be assigned to a transfer of title form.'
+mde.auditMethod: 'Audit method'
+mde.auditMethod.description: 'The method used to audit an object or group of objects.'
+mde.auditRefNo: 'Audit reference number'
+mde.auditRefNo.description: 'A unique identifying number for the audit of an object or group of objects. It should serve as the reference to written documentation of an audit.'
+mde.auditType: 'Audit type'
+mde.auditType.description: 'The type of audit carried out on a object'
+mde.assessmentDate: 'Condition check/assessment date'
+mde.assessmentDate.description: 'The date(s) on which a condition check or technical assessment process took place.'
+mde.assessmentMethod: 'Condition check/assessment method'
+mde.assessmentMethod.description: 'The method used when carrying out a condition check or technical assessment process.'
+mde.assessmentNote: 'Condition check/assessment note'
+mde.assessmentNote.description: 'Additional information about the condition checking or technical assessment process which has not been recorded elsewhere using controlled terminology.'
+mde.assessmentReason: 'Condition check/assessment reason'
+mde.assessmentReason.description: 'The reason for a condition check or technical assessment process taking place.'
+mde.assessmentRefNo: 'Condition check/assessment reference number'
+mde.assessmentRefNo.description: 'A unique identifying number for the condition checking or technical assessment process. It should serve as the reference to written documentation of a condition check or technical assessment.'
+mde.conservationMethod: 'Conservation method'
+mde.conservationMethod.description: 'The method used in the conservation of an object.'
+mde.conservationRefNo: 'Conservation Reference Number'
+mde.conservationRefNo.description: 'A unique identifying number for the conservation of an object or group of objects. It should serve as the reference to written documentation of conservation.'
+mde.deaccessionDate: 'Deaccession date'
+mde.deaccessionDate.description: 'The date when an item was struck off the accession register.'
+mde.disposalDate: 'Disposal date'
+mde.disposalDate.description: 'The date an object is disposed of.'
+mde.disposalMethod: 'Disposal method'
+mde.disposalMethod.description: 'The way in which an object is disposed of.'
+mde.disposalNewObjectNo: 'Disposal new object number'
+mde.disposalNewObjectNo.description: 'The object number assigned to a deaccessioned object by the recipient.'
+mde.disposalNote: 'Disposal note'
+mde.disposalNote.description: 'Additional information about the disposal of an object which has not been recorded elsewhere using controlled terminology.'
+mde.disposalPrice: 'Disposal price'
+mde.disposalPrice.description: 'The total price paid for an object at disposal'
+mde.disposalProvisos: 'Disposal provisos'
+mde.disposalProvisos.description: 'Restrictions applying to all the objects to be disposed of.'
+mde.disposalReason: 'Disposal reason'
+mde.disposalReason.description: 'The reason or justification for an object or objects being disposed of.'
+mde.disposalRefNo: 'Disposal Reference number'
+mde.disposalRefNo.description: 'The unique number assigned to the disposal of an object or group of objects. The number should also refer to a file containing all written documentation about the disposal.'
+mde.groupDisposalPrice: 'Group disposal price'
+mde.groupDisposalPrice.description: 'The total price paid for a group of objects at disposal including taxes for which the purchase is liable. If individual prices are known for specific objects in the group'
+mde.indemnityConfirmDate: 'Indemnity confirmation date'
+mde.indemnityConfirmDate.description: 'The date confirmation of indemnity cover is received from the indemnifying body.'
+mde.indemnityNote: 'Indemnity note'
+mde.indemnityNote.description: 'Additional information about the indemnity'
+mde.indemnityRenewalDate: 'Indemnity renewal date'
+mde.indemnityRenewalDate.description: 'The date when a Government Indemnity arrangement is due for renewal.'
+mde.indemnityRefNo: 'Indemnity Reference number'
+mde.indemnityRefNo.description: 'A unique identifying number of the indemnity as assigned by the organisation. Thenumber should be a reference to written documentation about the indemnity'
+mde.objectMinLiabilitySum: 'Object minimum liability sum'
+mde.objectMinLiabilitySum.description: 'The sum determined by Government Indemnity Scheme which the indemnified organisation is responsible.'
+mde.insuranceNote: 'Insurance note'
+mde.insuranceNote.description: 'Additional information about the insurance'
+mde.insurancePolicyNumber: 'Insurance policy number'
+mde.insurancePolicyNumber.description: 'The number of the insurance policy as assigned by the Insurer.'
+mde.insuranceRefNumber: 'Insurance reference number'
+mde.insuranceRefNumber.description: 'A unique identifying number of the insurance as assigned by the organisation. Thenumber should be a reference to written documentation about the indemnity'
+mde.insuranceRenewalDate: 'Insurance renewal date'
+mde.insuranceRenewalDate.description: 'The date when an insurance policy is due for renewal.'
+mde.lenderAuthorisationDate: "Lender's authorisation date"
+mde.lenderAuthorisationDate.description: "The date on which the lender's authoriser gives approval for a loan in to proceed."
+mde.loanInConditions: 'Loan in conditions'
+mde.loanInConditions.description: 'Conditions applying to objects as part of the loan in agreement'
+mde.loanInNote: 'Loan in note'
+mde.loanInNote.description: 'General information about a loan in.'
+mde.loanInRefNo: 'Loan in reference number'
+mde.loanInRefNo.description: 'The unique number assigned to the loan of objects from outside the organisation.The number should also refer to a file containing written documentation about the loan.'
+mde.loanOutNote: 'Loan out note'
+mde.loanOutNote.description: 'General information about a loan out.'
+mde.loanOutRefNo: 'Loan out reference number'
+mde.loanOutRefNo.description: 'The unique number assigned to the loan of objects to other organisations. The number should also refer to a file containing all written documentation about the loan out.'
+mde.loanedObjectStatus: 'Loaned object status'
+mde.loanedObjectStatus.description: 'The stage in the Loans out procedure which an individual object to be loaned out has reached.'
+mde.loan_line1: 'Loaned object status'
+mde.laon_line2: 'Loaned object status date'
+mde.specialConditions: 'Special conditions of loan'
+mde.specialConditions.description: 'A statement of conditions on the loan of an object from an organisation in addition to those normally laid down.'
+mde.lossDamageDate: 'Loss/damage date'
+mde.lossDamageDate.description: 'The date an object was first established as damaged or missing.'
+mde.lossDamageMethod: 'Loss/damage method'
+mde.lossDamageMethod.description: 'The method by which an object or group of objects was lost to the collections.'
+mde.lossDamageNote: 'Loss/damage note'
+mde.lossDamageNote.description: 'Additional information about the loss of an object'
+mde.lossDamageRefNo: 'Loss/damage reference number'
+mde.lossDamageRefNo.description: 'The unique number assigned to the record of the loss of an object or group of objects.The number should also refer to a file containing all written documentation about theloss of an object.'
+mde.movementMethod: 'Movement method'
+mde.movementMethod.description: 'The method used in the movement of an object.'
+mde.movementNote: 'Movement note'
+mde.movementNote.description: 'Additional information about the movement of an object or group of objects which has not been recorded elsewhere using controlled terminology.'
+mde.movementRefNo: 'Movement reference number'
+mde.movementRefNo.description: 'A unique identifying number for the movement of an object or group of objects. It should serve as the reference to written documentation of a movement.'
+mde.plannedRemovalDate: 'Planned removal date'
+mde.plannedRemovalDate.description: 'The date an object is due to be returned from a Current location which is not its Normal location.'
+mde.removalDate: 'Removal date'
+mde.removalDate.description: 'The date an object is actually removed from a Current location.'
+mde.depositorRequirements: "Depositor's requirements"
+mde.depositorRequirements.description: 'Requirements made by a depositor or owner concerning the deposit of an object or group of objects'
+mde.entryDate: 'Entry date'
+mde.entryDate.description: 'The date on which an object or group of objects enters the organisation.'
+mde.entryMethod: 'Entry method'
+mde.entryMethod.description: 'The method by which an object or group of objects is deposited.'
+mde.entryNote: 'Entry note'
+mde.entryNote.description: 'Additional information about the deposit of an object which has not been recorded else where using controlled terminology.'
+mde.entryNumber: 'Entry number'
+mde.entryNumber.description: 'A unique number assigned to the entry of an object or group of objects and used to track objects prior to their return or acquisition. It should serve as the reference to written documentation of objects entering the organisation for the first time. The number should be the one assigned to an entry form or receipt.'
+mde.entryReason: 'Entry reason'
+mde.entryReason.description: 'The reason for an object or group of objects physically entering the organisation.'
+mde.packingNote: 'Packing note'
+mde.packingNote.description: 'Information about the packing of an object or group of objects at the time of deposit at the organisation.'
+mde.returnDate: 'Return date'
+mde.returnDate.description: 'The date an object is due to be returned to or collected by the Current owner or Depositor.'
+mde.deliveryDate: 'Delivery date'
+mde.deliveryDate.description: 'The precise date on which an object or objects leaving the organisation is due to be delivered at its destination.'
+mde.exitDate: 'Exit date'
+mde.exitDate.description: 'The date on which an object or objects leaves the organisation.'
+mde.exitMethod: 'Exit method'
+mde.exitMethod.description: 'The method by which an object or group of objects leaves the organisation.'
+mde.exitNote: 'Exit note'
+mde.exitNote.description: 'Additional information relating to the exit of an object which cannot be recorded elsewhere.'
+mde.exitRefNo: 'Exit reference number'
+mde.exitRefNo.description: 'A unique identifying number for a exit. It should serve as the reference to written documentation of a exit. The number may be assigned to a exit note or receipt.'
+mde.shippingNote: 'Shipping note'
+mde.shippingNote.description: 'Additional information about shipping an object'
+mde.ProcessDate: 'Process Date'
+mde.ProcessDate.description: 'The date on which a process is completed.'
+mde.processMethod: 'Process method'
+mde.processMethod.description: 'The method used to carry out the process on an object.'
+mde.processNote: 'Process note'
+mde.processNote.description: 'Additional information about the process of an object which has not been recorded elsewhere using controlled terminology.'
+mde.processRefNo: 'Process reference number'
+mde.processRefNo.description: 'A unique identifying number for the process carried out on an object or group of objects. It should serve as the reference to written documentation of a process.'
+mde.valuationRefNo: 'Valuation reference number'
+mde.valuationRefNo.description: 'A unique identifying number for the valuation of an object or group of objects. It should serve as the reference to written documentation of a valuation.'
+mde.exhibitionRefNo: 'Exhibition reference number'
+mde.exhibitionRefNo.description: 'A unique identifying number for the exhibition of an object or group of objects under the auspices of the organisation. It should serve as the reference to written documentation of an exhibition.'
+mde.exhibitionBeginDate: 'Exhibition begin date'
+mde.exhibitionBeginDate.description: 'The opening date of an exhibition'
+mde.exhibitionEndDate: 'Exhibition end date'
+mde.exhibitionEndDate.description: 'The closing date of an exhibition'
+mde.exhibitionTitle: 'Exhibition title'
+mde.exhibitionTitle.description: 'The name of an exhibition'
+mde.venue: Venue
+mde.venue.description: 'The Organisation responsible for the venue where an exhibition is to be held.'
+mde.venue_line1: Venue
+mde.venue_line2: 'Venue Authorisation Date'
+mde.venue_line3: 'Venue Authoriser'
+mde.useDate: 'Research/use of object date'
+mde.useDate.description: 'The date an object is researched'
+mde.useMethod: 'Research/use of object method'
+mde.useMethod.description: 'The way in which an object is researched'
+mde.useNote: 'Research/use of object note'
+mde.useNote.description: "Additional information about the research or use of an object which has not been recorded elsewhere using controlled terminology. This could include an object'soperations log."
+mde.useProvisos: 'Research/use of object provisos'
+mde.useProvisos.description: 'Restrictions applying to the research or use of an object.'
+mde.useRefNo: 'Research/use of object reference number'
+mde.useRefNo.description: 'The unique number assigned to the research or use of an object or group of objects. The number should also refer to a file containing all written documentation about the disposal.'
+mde.useResult: 'Research/use of object result'
+mde.useResult.description: 'Information about the outcome of the research or use of object(s).'
+mde.useResearcher: Researcher/user
+mde.useResearcher.description: 'The Person or Organisation researching'
+mde.address: Address
+mde.line1: 'Address line 1'
+mde.line2: 'Address line 1'
+mde.line3: 'Address line 3'
+mde.telephone: Telephone/Fax
+mde.email: 'Email Address'
+mde.addressType: 'Address type'
+mde.dateAssociation: 'Date association'
+mde.dateAssociation.description: "How a Date relates to an event in an object's history."
+mde.earliestDate: 'Earliest Date'
+mde.earliestDate.description: "The earliest probable or exact date at which an event in an object's history is thought to have occurred."
+mde.earliest_line1: 'Date - earliest/single'
+mde.earliest_line2: 'Date - earliest/single certainty'
+mde.earliest_line3: 'Date - earliest/single qualifier'
+mde.latestDate: 'latest Date'
+mde.latestDate.description: "The latest probable date at which an event in an object's history is thought to have occurred."
+mde.latest_line1: 'Date - latest'
+mde.latest_line2: 'Date - latest certainty'
+mde.latest_line3: 'Date - latest qualifier'
+mde.datePeriod: 'Date period'
+mde.datePeriod.description: "A textual expression of the period when an event in an object's history is thought to have occurred. Use a single term. Maintain a list of standard terms"
+mde.dateText: 'Date text'
+mde.dateText.description: "The textual expression of the date or date span when an event in an object's history is thought to have occurred."
+mde.locationAccessNote: 'Location Access note'
+mde.locationAccessNote.description: 'Information about the access to a specific Location.'
+mde.locationCondition: 'Location condition'
+mde.locationCondition.description: 'Information about the condition of the location'
+mde.locationCondition_line1: 'Location condition note'
+mde.locationCondition_line2: 'Location condition note date'
+mde.locationRefNo: 'Location reference name/number'
+mde.locationSecurityNote: 'Location security note'
+mde.locationSecurityNote.description: 'Information about the security of a specific Location'
+mde.locationType: 'Location security note'
+mde.locationType.description: 'The nature or category of a Location.'
+mde.contactName: 'Contact name'
+mde.contactName.description: 'The representative of an Organisation who is normally liaised with.'
+mde.orgDissolutionDate: 'Organisation dissolution date'
+mde.orgDissolutionDate.description: 'The date on which an Organisation formally ceased to be. This may be the date on which it was taken over or wound up.'
+mde.orgFoundationDate: 'Organisation foundation date'
+mde.orgFoundationDate.description: 'The date on which an Organisation formally came into being.'
+mde.orgFoundationPlace: 'Organisation foundation place'
+mde.orgFoundationPlace.description: 'Information about the place where an Organisation came into being.'
+mde.orgFunction: 'Organisation function'
+mde.orgFunction.description: 'The activities which make up the main business of an organisation.'
+mde.orgGroup: 'Organisation group'
+mde.orgGroup.description: 'The social'
+mde.orgHistory: 'Organisation history'
+mde.orgHistory.description: 'Information about the history of the Organisation.'
+mde.orgMDAcode: 'Organisation history'
+mde.orgMDAcode.description: 'The Collections Trust assigned code uniquely identifying an Organisation.'
+mde.orgMainBody: 'Organisation main body'
+mde.orgMainBody.description: 'The name of an Organisation.'
+mde.orgSubBody: 'Organisation sub-body'
+mde.orgSubBody.description: 'The name of the sub-body of an Organisation.'
+mde.peoplesCulture: "People's culture"
+mde.peoplesCulture.description: 'An identifiable type of civilisation.'
+mde.peoplesGroup: "People's group"
+mde.peoplesGroup.description: 'An identifiable community or division of a nation of People.'
+mde.peoplesLinguisticGroup: "People's linguistic group"
+mde.peoplesLinguisticGroup.description: 'A broad grouping of People identifiable by common linguistic roots.'
+mde.personBioNote: 'Person biographical note'
+mde.personBioNote.description: 'Information about the personal history of a Person.'
+mde.vitalDates: 'Vital Dates'
+mde.vitalDates.description: 'Enter the birth and death dates for an entity.'
+mde.vital_line1: 'Birth Date'
+mde.vital_line2: 'Death Date'
+mde.personGender: "Person's gender"
+mde.personGender.description: 'Information about the personal history of a Person.'
+mde.personNationality: "Person's nationality"
+mde.personNationality.description: "A Person's official current nationality."
+mde.personOccupation: "Person's occupation"
+mde.personOccupation.description: 'The occupation or employment of a Person.'
+mde.personSalutation: "Person's salutation"
+mde.personSalutation.description: 'The form of greeting used in correspondence.'
+mde.personSchoolStyle: "Person's school/style"
+mde.personSchoolStyle.description: 'The form of greeting used in correspondence.'
+mde.placeContextInfo: 'Place context'
+mde.placeContextInfo.description: 'A number'
+mde.placeContext_line1: 'Place context'
+mde.placeContext_line2: 'Place context date'
+mde.placeContext_line3: 'Place context level'
+mde.placeEnvironmental: 'Place environmental details'
+mde.placeEnvironmental.description: 'Environmental information relevant to an object'
+mde.placeFeatureInfo: 'Place feature'
+mde.placeFeatureInfo.description: 'The name by which a feature associated with an object is normally known.'
+mde.placeFeature_line1: 'Place feature'
+mde.placeFeature_line2: 'Place feature date'
+mde.placeFeature_line3: 'Place feature type'
+mde.placeNameType: 'Place name type'
+mde.placeNameType.description: 'The nature or category of Place recorded.'
+mde.placeNote: 'Place note'
+mde.placeNote.description: 'Additional information about Place which has not been recorded elsewhere using controlled terminology.'
+mde.placePosition: 'Place position'
+mde.placePosition.description: 'A precise position in a Place'
+mde.placeRefNoType: 'Place reference number type'
+mde.placeRefNoType.description: 'The category of Place reference number recorded.'
+mde.placeStatus: 'Place status'
+mde.placeStatus.description: 'A formal administrative or scientific status assigned to a place.'
+mde.placeTypeSystem: 'Place type system'
+mde.placeTypeSystem.description: 'The classification system from which the Place feature type is taken.'
+mde.confidentialityNote: 'Confidentiality note'
+mde.confidentialityNote.description: 'Restrictions agreed on the publication of details of an object'
+mde.informationUsage: 'Information usage'
+mde.informationUsage.description: 'Information on the use made of the record and associated resources'
+mde.recordType: 'Record type'
+mde.recordType.description: 'Describes the level of description which the record contains.'
+mde.refDetails: 'Reference details'
+mde.refDetails.description: Details
+mde.refNote: 'Reference Note'
+mde.refNote.description: 'Details of the specific nature of the relevance of the Reference to the object'
+mde.refPublicationDate: 'Reference publication date'
+mde.refPublicationDate.description: 'The Date when a referenced work was published.'
+mde.refType: 'Reference type'
+mde.refType.description: 'A term describing the nature of the Reference.'
+mde.catalogueNumber: 'Catalogue number'
+mde.catalogueNumber.description: 'The number assigned to an object in an exhibition catalogue'
+ui.objects_ui: 'Object editor'
+screen.admin: 'Record Admin'
+screen.storage: Storage
+screen.sets: Sets
+ui.entities_ui: 'Entity editor'
+screen.contact: 'Contact info'
+ui.occurrences_ui: 'Occurrences editor'
+ui.places_ui: 'Place editor'
+ui.collections_ui: 'Standard collection editor'
+ui.object_lots_ui: 'Object lots editor'
+screen.entities: Entities
+screen.objects: Objects
+ui.storage_locations_ui: 'Storage locations editor'
+ui.object_representation_ui: 'Object representation editor'
+ui.representation_annotation_ui: 'Representation annotation editor'
+list.object_statuses: 'Object statuses'
+list.object_acq_types: 'Object acquisition types'
+list.object_label_types: 'Object label types'
+list.object_lot_types: 'Object Lot Types'
+list.object_lot_statuses: 'Object lot statuses'
+list.object_lot_label_types: 'Object lot label type values'
+list.entity_label_types: 'Entity label types'
+list.alternate_pub_number_types: 'Alternate Publication Number Types'
+list.conditions: 'Condition values'
+list.color_type: 'Color type'
+list.address_type: 'Address type'
+list.date_types: 'Dublin Core Date Types'
+list.object_media_license_types: 'Object media license types'
+rel.artist.typename: artist
+rel.artist.typename_reverse: artist
+rel.moderator.typename: 'had as moderator'
+rel.moderator.typename_reverse: 'was moderator of'
+rel.speaker.typename: speaker
+rel.speaker.typename_reverse: speaker
+rel.panelist.typename: 'had as panelist'
+rel.panelist.typename_reverse: 'was panelist in'
+rel.documentarian.typename: 'had as documentarian'
+rel.documentarian.typename_reverse: 'is documentarian of'
+rel.architect.typename: 'had as architect'
+rel.architect.typename_reverse: 'was architect of'
+rel.designer.typename: designer
+rel.designer.typename_reverse: designer
+rel.author.typename: author
+rel.author.typename_reverse: author
+rel.performer.typename: performer
+rel.performer.typename_reverse: performer
+rel.staff_member.typename: 'had as staff member'
+rel.staff_member.typename_reverse: 'was staff member fo'
+rel.consultant.typename: 'had as consultant'
+rel.consultant.typename_reverse: 'was consultant for'
+rel.publisher.typename: publisher
+rel.publisher.typename_reverse: publisher
+rel.sponsor.typename: 'had as sponsor'
+rel.sponsor.typename_reverse: 'was sponsor for'
+rel.partner_museum.typename: 'had as partner museum'
+rel.partner_museum.typename_reverse: 'was partner museum for'
+mde.date: Date
+mde.date.description: 'A point or period of time associated with an event in the life cycle of the resource.'
+mde.dates_value: Date
+mde.dates_type: Type
+mde.condition: Condition
+mde.work_description: 'Physical description'
+mde.work_medium: Medium
+mde.work_dimensions: Dimensions
+mde.work_dimensions.description: 'Physical dimensions of object'
+mde.dimensions_type.description: 'The type of measurement this is.'
+mde.work_date: 'Object date'
+mde.accession_date: 'Accession date'
+mde.notes: Notes
+mde.edition_number: 'Edition number'
+mde.provenance: Provenance
+mde.past_storage_locations: 'Past storage locations'
+mde.past_storage_locations.description: 'Track the history of object storage and movement.'
+mde.storage_line1: 'Storage Location'
+mde.storage_line2: 'Date of Move'
+mde.storage_line3: Authorization
+mde.credit_line: 'Loan Credit Line'
+mde.custodial_notes: 'Condition notes'
+mde.media_license: 'Media license'
+mde.purchase_price: 'Purchase price'
+mde.colorType: 'Color type'
+mde.runtime: Runtime
+mde.media_rights: 'Media rights'
+mde.nationality: Nationality
+mde.biography: Biography
+mde.lifespan: 'Life dates'
+mde.line4: 'Address line 4'
+mde.url: 'Web site url'
+mde.lot_notes: 'Accession Notes'
+mde.rights: Rights
+mde.rights.description: 'Information about rights held in and over the resource.'
+mde.citation: Citation
+mde.citation.description: 'Add citation information related to the publication'
+mde.publication_info: 'Publication Information'
+mde.publication_info.description: 'Information about the publication.'
+mde.publication_container: 'publication Container'
+mde.publication_container_2: 'publication Container 2'
+mde.edition_of: 'Edition of'
+mde.edition_of.description: 'How many books were published'
+mde.alternate_pub_numbers: 'Alternate publication numbers'
+mde.alternate_pub_numbers.description: 'List alternate publication numbers (ISBN'
+mde.alternate_pub_number: 'Alternate publication numbers'
+mde.alternate_pub_number.description: 'List alternate publication numbers (ISBN'
+mde.alternate_pub_number_type: Type
+ui.standard_object_ui: 'Standard object editor'
+screen.coverage: Coverage
+screen.format: Format
+screen.rights: Rights
+screen.subjects: Subjects
+ui.standard_entity_ui: 'Standard entity editor'
+ui.event_cataloguers_ui: 'Event editor'
+ui.standard_collection_ui: 'Collection editor'
+ui.standard_storage_locations_ui: 'Storage locations editor'
+ui.standard_object_lots_ui: 'Object lots editor'
+ui.standard_representation_ui: 'Object representation editor'
+ui.standard_representation_annotation_ui: 'Representation annotation editor'
+list.languages: Languages
+list.audio_format: Format
+list.image_format: Format
+list.text_format: Format
+list.video_format: Format
+list.test_vocab: 'Test Vocabulary'
+list.materials: Materials
+rel.contributor.typename: contributor
+rel.contributor.typename_reverse: contributor
+rel.attended.typename: attended
+rel.attended.typename_reverse: 'was attended by'
+rel.site.typename: 'was site of'
+rel.site.typename_reverse: 'occurred at'
+mde.language: Language
+mde.language.description: "The language or languages of the content of the resource. Example: English\n            German\n            Yiddish\n          "
+mde.dc_dates_types: Type
+mde.materials: Materials
+mde.coverageNotes: 'Coverage Notes'
+mde.coverageNotes.description: 'The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant. Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.'
+mde.coverageDates: 'Coverage Dates'
+mde.acquisition_date: 'Acquisition date'
+mde.audio_format: Format
+mde.audio_format.description: 'The file format of the resource.'
+mde.video_format: Format
+mde.video_format.description: 'The file format of the resource.'
+mde.image_format: Format
+mde.image_format.description: 'The file format of the resource.'
+mde.text_format: Format
+mde.text_format.description: 'The file format of the resource.'
+mde.gen_format: Format
+mde.gen_format.description: 'The file format of the resource.'
+mde.formatNotes: 'Format Notes'
+mde.formatNotes.description: 'Further notes on the file format, physical medium, or dimensions of the resource.'
+mde.dimensions_length: Length
+mde.dimensions_length.description: 'Length of object; enter in your preferred units (eg. 10cm)'
+mde.dimensions_thickness: Thickness
+mde.dimensions_thickness.description: 'Thickness of object; enter in your preferred units (eg. 10cm)'
+mde.dimensions_weight: Weight
+mde.dimensions_weight.description: 'Weight of Object'
+mde.meas_line1: Line1
+mde.duration: Duration
+mde.rightsText: Rights
+mde.rightsHolder: 'Rights Holder'
+mde.rightsHolder.description: 'To identify the person or organisation holding or managing the rights related to the resource.'
+mde.copyrightStatement: 'Copyright Statement'
+mde.copyrightStatement.description: 'Use to state copyright statements over the resource.'
+mde.biography.description: 'Narrative biography for entity. This is the primary text used to document the entity.'
+mde.biography_source: 'Source of description'
+mde.biography_source.description: 'Source of entity biography. This should be a formal citation if possible. For informal sources a narrative description is acceptable.'
+mde.integer_test: 'Integer Test Attribute'
+mde.currency_test: 'Currency Test Attribute'
+mde.tgn: TGN
+mde.aat: AAT
+mde.ulan: ULAN
+mde.ubio: uBio
+mde.wikipedia: Wikipedia
+mde.informationservice: 'InfoService Container'
+mde.wiki: Wikipedia
+mde.ulan_container: ULAN
+mde.entity_reference: 'Entities (Reference)'
+mde.entity_reference_2: 'Entities (Reference 2)'
+mde.collection_reference: 'Collections (Reference)'
+mde.barcode: Barcode
+screen.record_level: 'Record level data'
+screen.occurrence: Occurrences
+screen.event: Events
+screen.geological_context: 'Geological context'
+screen.identification: Identification
+screen.taxon: Taxon
+screen.resource: Resources
+screen.measurementOrFact: 'Measurement or Fact'
+ui.occurrence_editor_ui: 'Occurrence UI'
+screen.basic_event: 'Basic info'
+screen.basic_occurrence: 'Basic info'
+screen.basic_resource: 'Basic info'
+ui.set_items_cataloguers_ui: 'Set item editor'
+list.taxonomy: Taxon
+list.dc_type: 'Dublin Core Type'
+list.basisOfRecord_types: 'Basis of Record Types'
+list.sex: sex
+list.occurrenceStatus_types: 'occurrence status types'
+list.georef_verification: 'georeference Verification Status'
+list.id_qualifier_types: 'Idenfifier Qualifier Types'
+list.type_status_types: 'Type Status Types'
+list.taxonomic_status_types: 'Taxonomic Status Types'
+list.nomenclatural_status_types: 'nomenclatural Status Types'
+list.measurement_types: 'Measurement Types'
+rel.determined.typename: 'was determined by'
+rel.determined.typename_reverse: determined
+rel.donated.typename: 'was donated by'
+rel.donated.typename_reverse: donated
+rel.owned.typename: 'was owned by'
+rel.owned.typename_reverse: owned
+rel.discover.typename: 'was discovered by'
+rel.discover.typename_reverse: discovered
+rel.part.typename: 'has as part of'
+rel.part.typename_reverse: 'is part of'
+rel.colleague.typename: 'is colleague of'
+rel.colleague.typename_reverse: 'is colleague of'
+rel.student.typename: 'is student of'
+rel.student.typename_reverse: 'is student of'
+rel.professor.typename: 'is professor of'
+rel.professor.typename_reverse: 'is professor of'
+rel.managed.typename: managed
+rel.managed.typename_reverse: 'was managed by'
+mde.dcType: 'dcterms:type'
+mde.dcType.description: 'The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.'
+mde.dcModified: 'dcterms:modified'
+mde.dcModified.description: 'The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.dcLanguage: 'dcterms:language'
+mde.dcLanguage.description: 'A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC4646.'
+mde.dcRights: 'dcterms:rights'
+mde.dcRights.description: 'Information about rights held in and over the resource. Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.'
+mde.dcBibCitation: 'dcterms:bibliographicCitation'
+mde.dcBibCitation.description: 'A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.'
+mde.institutionID: institutionID
+mde.institutionID.description: 'An identifier for the institution having custody of the object(s) or information referred to in the record.'
+mde.collectionID: collectionID
+mde.collectionID.description: 'An identifier for the collection or dataset from which the record was derived. For physical specimens, the recommended best practice is to use the identifier in a collections registry such as the Biodiversity Collections Index (http://www.biodiversitycollectionsindex.org/).'
+mde.datasetID: datasetID
+mde.datasetID.description: 'An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.'
+mde.institutionCode: institutionCode
+mde.institutionCode.description: 'The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.'
+mde.collectionCode: collectionCode
+mde.collectionCode.description: 'The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.'
+mde.datasetName: datasetName
+mde.datasetName.description: 'The name identifying the data set from which the record was derived.'
+mde.ownerInstitutionCode: ownerInstitutionCode
+mde.ownerInstitutionCode.description: 'The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.'
+mde.basisOfRecord: basisOfRecord
+mde.basisOfRecord.description: 'The specific nature of the data record - a subtype of the dcterms:type. Recommended best practice is to use a controlled vocabulary such as the Darwin Core Type Vocabulary (http://rs.tdwg.org/dwc/terms/type-vocabulary/index.htm).'
+mde.informationWithheld: informationWithheld
+mde.informationWithheld.description: 'Additional information that exists, but that has not been shared in the given record.'
+mde.dataGeneralizations: dataGeneralizations
+mde.dataGeneralizations.description: 'Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.'
+mde.dynamicProperties: dataGeneralizations
+mde.dynamicProperties.description: 'A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content such as key-value pairs.'
+mde.catalogNumber: catalogNumber
+mde.catalogNumber.description: 'An identifier (preferably unique) for the record within the data set or collection.'
+mde.occurrenceDetails: occurrenceDetails
+mde.occurrenceDetails.description: 'A reference (publication, URI) to the most detailed information available about the Occurrence.'
+mde.occurrenceRemarks: occurrenceRemarks
+mde.occurrenceRemarks.description: 'Comments or notes about the Occurrence.'
+mde.recordNumber: recordNumber
+mde.recordNumber.description: "An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number."
+mde.individualID: individualID
+mde.individualID.description: 'An identifier for an individual or named group of individual organisms represented in the Occurrence. Meant to accommodate resampling of the same individual or group for monitoring purposes. May be a global unique identifier or an identifier specific to a data set.'
+mde.individualCount: individualCount
+mde.individualCount.description: 'An identifier for an individual or named group of individual organisms represented in the Occurrence. Meant to accommodate resampling of the same individual or group for monitoring purposes. May be a global unique identifier or an identifier specific to a data set.'
+mde.lifeStage: lifeStage
+mde.lifeStage.description: 'The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.'
+mde.reproductiveCondition: reproductiveCondition
+mde.reproductiveCondition.description: 'The reproductive condition of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.'
+mde.behavior: behavior
+mde.behavior.description: 'A description of the behavior shown by the subject at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.'
+mde.establishmentMeans: establishmentMeans
+mde.establishmentMeans.description: 'The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.'
+mde.occurrenceStatus: occurrenceStatus
+mde.occurrenceStatus.description: 'A statement about the presence or absence of a Taxon at a Location. Recommended best practice is to use a controlled vocabulary.'
+mde.preparations: preparations
+mde.preparations.description: 'A list (concatenated and separated) of preparations and preservation methods for a specimen.'
+mde.disposition: disposition
+mde.disposition.description: 'The current state of a specimen with respect to the collection identified in collectionCode or collectionID. Recommended best practice is to use a controlled vocabulary.'
+mde.otherCatalogNumbers: otherCatalogNumbers
+mde.otherCatalogNumbers.description: 'A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.'
+mde.previousIdentifications: previousIdentifications
+mde.previousIdentifications.description: 'A list (concatenated and separated) of previous assignments of names to the Occurrence.'
+mde.associatedSequences: associatedSequences
+mde.associatedSequences.description: 'A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.'
+mde.samplingProtocol: samplingProtocol
+mde.samplingProtocol.description: 'The name of, reference to, or description of the method or protocol used during an Event.'
+mde.samplingEfforts: samplingEfforts
+mde.samplingEfforts.description: 'The amount of effort expended during an Event.'
+mde.eventDate: eventDate
+mde.eventDate.description: 'The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.eventTime: eventTime
+mde.eventTime.description: 'The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.startDayOfYear: startDayOfYear
+mde.startDayOfYear.description: 'The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.endDayOfYear: endDayOfYear
+mde.endDayOfYear.description: 'The latest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).'
+mde.year: year
+mde.year.description: 'The four-digit year in which the Event occurred, according to the Common Era Calendar.'
+mde.month: month
+mde.month.description: 'The ordinal month in which the Event occurred.'
+mde.day: day
+mde.day.description: 'The integer day of the month on which the Event occurred.'
+mde.verbatimEventDate: verbatimEventDate
+mde.verbatimEventDate.description: 'The verbatim original representation of the date and time information for an Event.'
+mde.fieldNumber: fieldNumber
+mde.fieldNumber.description: 'An identifier given to the event in the field. Often serves as a link between field notes and the Event.'
+mde.fieldNotes: fieldNotes
+mde.fieldNotes.description: 'One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event.'
+mde.eventRemarks: eventRemarks
+mde.eventRemarks.description: 'Comments or notes about the Event.'
+mde.locationID: locationID
+mde.locationID.description: 'An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.'
+mde.higherGeographyID: higherGeographyID
+mde.higherGeographyID.description: 'An identifier for the geographic region within which the Location occurred. Recommended best practice is to use an persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names.'
+mde.higherGeography: higherGeography
+mde.higherGeography.description: 'A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.'
+mde.continent: continent
+mde.continent.description: 'The name of the continent in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names or the ISO 3166 Continent code.'
+mde.waterBody: waterBody
+mde.waterBody.description: 'The name of the water body in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.'
+mde.islandGroup: islandGroup
+mde.islandGroup.description: 'The name of the island group in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.'
+mde.island: island
+mde.island.description: 'The name of the island on or near which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.'
+mde.country: Country
+mde.country.description: 'The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. With its standard country code'
+mde.countryline1: 'Country name'
+mde.countryline2: 'Country code'
+mde.stateProvince: stateProvince
+mde.stateProvince.description: 'The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.'
+mde.county: county
+mde.county.description: 'The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.'
+mde.municipality: municipality
+mde.municipality.description: 'The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.'
+mde.locality: locality
+mde.locality.description: 'The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.'
+mde.verbatimLocality: verbatimLocality
+mde.verbatimLocality.description: 'The original textual description of the place.'
+mde.verbatimElevation: verbatimElevation
+mde.verbatimElevation.description: 'The original description of the elevation (altitude, usually above sea level) of the Location.'
+mde.minimumElevationInMeters: minimumElevationInMeters
+mde.minimumElevationInMeters.description: 'The lower limit of the range of elevation (altitude, usually above sea level), in meters.'
+mde.maximumElevationInMeters: maximumElevationInMeters
+mde.maximumElevationInMeters.description: 'The upper limit of the range of elevation (altitude, usually above sea level), in meters.'
+mde.verbatimDepth: verbatimDepth
+mde.verbatimDepth.description: 'The original description of the depth below the local surface.'
+mde.minimumDepthInMeters: minimumDepthInMeters
+mde.minimumDepthInMeters.description: 'The lesser depth of a range of depth below the local surface, in meters.'
+mde.maximumDepthInMeters: maximumDepthInMeters
+mde.maximumDepthInMeters.description: 'The greater depth of a range of depth below the local surface, in meters.'
+mde.minDistAboveSurface: minimumDistanceAboveSurfaceInMeters
+mde.minDistAboveSurface.description: 'The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.'
+mde.maxDistAboveSurface: maximumDistanceAboveSurfaceInMeters
+mde.maxDistAboveSurface.description: 'The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.'
+mde.locationAccordingTo: locationAccordingTo
+mde.locationAccordingTo.description: 'Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals.'
+mde.locationRemarks: locationRemarks
+mde.locationRemarks.description: 'Comments or notes about the Location.'
+mde.pointRadiusSpatialFit: pointRadiusSpatialFit
+mde.pointRadiusSpatialFit.description: 'The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location.'
+mde.footprintWKT: footprintWKT
+mde.footprintWKT.description: 'A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other.'
+mde.footprintSRS: footprintSRS
+mde.footprintSRS.description: 'A Well-Known Text (WKT) representation of the Spatial Reference System (SRS) for the footprintWKT of the Location. Do not use this term to describe the SRS of the decimalLatitude and decimalLongitude, even if it is the same as for the footprintWKT - use the geodeticDatum instead.'
+mde.footprintSpatialFit: footprintSpatialFit
+mde.footprintSpatialFit.description: 'The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location.'
+mde.georeferencedBy: georeferencedBy
+mde.georeferencedBy.description: 'A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) the Location.'
+mde.georeferenceProtocol: georeferenceProtocol
+mde.georeferenceProtocol.description: 'A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties.'
+mde.georeferenceSources: georeferenceSources
+mde.georeferenceSources.description: 'A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.'
+mde.georeferenceVerificationStatus: georeferenceVerificationStatus
+mde.georeferenceVerificationStatus.description: 'A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description. Recommended best practice is to use a controlled vocabulary.'
+mde.georeferenceRemarks: georeferenceRemarks
+mde.georeferenceRemarks.description: 'Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol.'
+mde.geologicalContextID: geologicalContextID
+mde.geologicalContextID.description: 'An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.'
+mde.earliestEonOrLowestEonothem: earliestEonOrLowestEonothem
+mde.earliestEonOrLowestEonothem.description: 'The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name (Precambrian) attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.latestEonOrHighestEonothem: latestEonOrHighestEonothem
+mde.latestEonOrHighestEonothem.description: 'The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name (Precambrian) attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.earliestEraOrLowestErathem: latestEonOrHighestEonothem
+mde.earliestEraOrLowestErathem.description: 'The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.latestEraOrHighestErathem: latestEraOrHighestErathem
+mde.latestEraOrHighestErathem.description: 'The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.earliestPeriodOrLowestSystem: earliestPeriodOrLowestSystem
+mde.earliestPeriodOrLowestSystem.description: 'The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.latestPeriodOrHighestSystem: latestPeriodOrHighestSystem
+mde.latestPeriodOrHighestSystem.description: 'The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.earliestEpochOrLowestSeries: earliestEpochOrLowestSeries
+mde.earliestEpochOrLowestSeries.description: 'The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.latestEpochOrHighestSeries: latestEpochOrHighestSeries
+mde.latestEpochOrHighestSeries.description: 'The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.earliestAgeOrLowestStage: earliestAgeOrLowestStage
+mde.earliestAgeOrLowestStage.description: 'The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.latestAgeOrHighestStage: latestAgeOrHighestStage
+mde.latestAgeOrHighestStage.description: 'The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.'
+mde.lowestBiostratigraphicZone: lowestBiostratigraphicZone
+mde.lowestBiostratigraphicZone.description: 'The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.'
+mde.highestBiostratigraphicZone: highestBiostratigraphicZone
+mde.highestBiostratigraphicZone.description: 'The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.'
+mde.lithostratigraphicTerms: lithostratigraphicTerms
+mde.lithostratigraphicTerms.description: 'The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.'
+mde.group: group
+mde.group.description: 'The full name of the lithostratigraphic group from which the cataloged item was collected.'
+mde.formation: formation
+mde.formation.description: 'The full name of the lithostratigraphic formation from which the cataloged item was collected.'
+mde.member: member
+mde.member.description: 'The full name of the lithostratigraphic member from which the cataloged item was collected.'
+mde.bed: bed
+mde.bed.description: 'The full name of the lithostratigraphic bed from which the cataloged item was collected.'
+mde.identificationID: identificationID
+mde.identificationID.description: 'A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject.'
+mde.dateIdentified: dateIdentified
+mde.dateIdentified.description: 'The date on which the subject was identified as representing the Taxon. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.identificationRemarks: identificationRemarks
+mde.identificationRemarks.description: 'Comments or notes about the Identification.'
+mde.identificationQualifier: identificationQualifier
+mde.identificationQualifier.description: "A brief phrase or a standard term (cf., aff.) to express the determiner's doubts about the Identification."
+mde.typeStatus: typeStatus
+mde.typeStatus.description: 'A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject.'
+mde.scientificName: scientificName
+mde.scientificName.description: 'The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.'
+mde.acceptedNameUsage: acceptedNameUsage
+mde.acceptedNameUsage.description: 'The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.'
+mde.parentNameUsage: parentNameUsage
+mde.parentNameUsage.description: 'The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.'
+mde.originalNameUsage: originalNameUsage
+mde.originalNameUsage.description: 'The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.'
+mde.nameAccordingTo: nameAccordingTo
+mde.nameAccordingTo.description: 'The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin sensu or sec. (from secundum, meaning according to). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.'
+mde.namePublishedIn: namePublishedIn
+mde.namePublishedIn.description: 'A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.'
+mde.specificEpithet: specificEpithet
+mde.specificEpithet.description: 'The name of the first or species epithet of the scientificName.'
+mde.infraspecificEpithet: infraspecificEpithet
+mde.infraspecificEpithet.description: 'The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.'
+mde.taxonRank: taxonRank
+mde.taxonRank.description: 'The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.'
+mde.scientificNameAuthorship: scientificNameAuthorship
+mde.scientificNameAuthorship.description: 'The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.'
+mde.vernacularName: vernacularName
+mde.vernacularName.description: 'A common or vernacular name.'
+mde.nomenclaturalCode: nomenclaturalCode
+mde.nomenclaturalCode.description: 'The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.'
+mde.taxonomicStatus: taxonomicStatus
+mde.taxonomicStatus.description: 'The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.'
+mde.nomenclaturalStatus: nomenclaturalStatus
+mde.nomenclaturalStatus.description: 'The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.'
+mde.taxonRemarks: taxonRemarks
+mde.taxonRemarks.description: 'Comments or notes about the taxon or name.'
+mde.relationship_info: 'Relationship Info'
+mde.relationship_line1: relationshipAccordingTo
+mde.relationship_line2: relationshipEstablishedDate
+mde.relationship_line3: relationshipRemarks
+mde.measurementID: measurementID
+mde.measurementID.description: 'An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set.'
+mde.measurementType: measurementType
+mde.measurementType.description: 'The nature of the measurement, fact, characteristic, or assertion. Recommended best practice is to use a controlled vocabulary.'
+mde.measurementValue: measurementValue
+mde.measurementValue.description: 'The value of the measurement, fact, characteristic, or assertion.'
+mde.measurementAccuracy: measurementAccuracy
+mde.measurementAccuracy.description: 'The description of the potential error associated with the measurementValue.'
+mde.measurementUnit: measurementUnit
+mde.measurementUnit.description: 'The units associated with the measurementValue. Recommended best practice is to use the International System of Units (SI).'
+mde.measurementDeterminedDate: measurementDeterminedDate
+mde.measurementDeterminedDate.description: 'The date on which the MeasurementOrFact was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).'
+mde.measurementDeterminedBy: measurementDeterminedBy
+mde.measurementDeterminedBy.description: 'A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the MeasurementOrFact.'
+mde.measurementMethod: measurementMethod
+mde.measurementMethod.description: 'A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion.'
+mde.measurementRemarks: measurementRemarks
+mde.measurementRemarks.description: 'Comments or notes accompanying the MeasurementOrFact.'
+ui.loan_cataloguers_ui: 'Loan editor'
+screen.basic_in: 'Basic info'
+screen.basic_out: 'Basic info'
+ui.movement_cataloguers_ui: 'Condition Editor'
+ui.list_cataloguers_ui: 'List editor'
+ui.list_item_cataloguers_ui: 'List item editor'
+ui.relationship_types_config_ui: 'Relationship types configuration editor'
+ui.search_forms_config_ui: 'Search forms configuration editor'
+ui.bundle_display_config_ui: 'Display list configuration editor'
+screen.placements: 'Display list'
+ui.tour_editor_ui: 'Tour editor'
+ui.tour_stop_editor_ui: 'Tour stop editor'
+screen.specific_library: 'Type-Specific Metadata'
+screen.specific_object: 'Type-Specific Metadata'
+screen.screen_12_7: 'Component Information'
+screen.specific_archival: 'Type-Specific Metadata'
+screen.condition: Condition
+screen.screen_12_8: 'Use History'
+ui.collection_ui: 'Collection editor'
+screen.identity: Identity
+screen.basic_recordGroup: 'Identity Elements'
+screen.basic_series: 'Identity Elements'
+screen.basic_remaining: 'Identity Elements'
+screen.content: 'Content and Structure'
+screen.access_use: 'Access and Use'
+screen.acquisition: 'Acquisition and Appraisal'
+screen.related: 'Related Materials'
+screen.notes: 'Notes, etc.'
+ui.ui_editor: 'UI Editor'
+screen.basic_21: Basic
+ui.ui_screen_editor: 'UI Screen Editor'
+screen.basic_22: Basic
+ui.a1: a1
+screen.screen_23_0: a1
+list.list_item_types: 'List item types'
+list.list_item_sources: 'List item sources'
+list.list_item_label_types: 'List item label types'
+list.set_types: 'Set types'
+list.set_presentation_types: 'Set presentation types'
+list.set_item_is_primary: 'Set item primary status types'
+list.object_deaccession_types: 'Object deaccession types'
+list.workflow_statuses: 'Object workflow statuses'
+list.access_statuses: 'Object access statuses'
+list.object_circulation_statuses: 'Object circulation statuses'
+list.object_lot_sources: 'Object lot sources'
+list.loan_types: 'Loan Types'
+list.loan_sources: 'Loan sources'
+list.movement_types: 'Movement type values'
+list.movement_sources: 'Movement sources'
+list.place_types: 'Place types'
+list.place_label_types: 'Place label type values'
+list.occurrence_label_types: 'Occurrence label types'
+list.collection_label_types: 'Collection label types'
+list.storage_location_sources: 'Storage location sources'
+list.storage_location_label_types: 'Storage location label type values'
+list.object_representation_types: 'Object representation types'
+list.object_representation_sources: 'Object representation sources'
+list.tour_types: 'Tour types'
+list.tour_sources: 'Tour sources'
+list.tour_stop_types: 'Tour stop types'
+list.measurement_unit_types: 'Measurement unit types'
+list.measurement_type_types: 'Measurement type types'
+list.materials_tech_types: 'Materials/techniques types'
+list.date_qualifier_types: 'Date qualifier types'
+list.resource_types: 'resource types'
+list.condition: Condition
+list.vhec_vocab: Condition
+list.transfer_mode: 'Transfer Mode'
+list.work_type: 'Object/Work Types'
+list.thesaurus: Thesaurus
+list.entity_category: 'Entity Type'
+list.yn: Yes/No
+list.staff: 'Staff Names'
+list.gsusa_vocab: Keywords
+list.found_location: 'Found Location'
+list.pbcore_format_physical_types_moving: 'Format: Physical Types For A/V'
+list.retention_type: 'Retention types'
+list.origination_dept: 'Origination Dept'
+list.retention_period: 'Retention period'
+list.originating_manager: 'Originating Department Manager'
+list.reviewed_by: 'NHPC Reviewed By'
+list.entity_roles: 'Entity Role'
+list.dc_format: Format
+list.dacs_date_types: 'Dublin Core Date Types'
+list.local: Local
+list.box_type: 'Box Types'
+list.resource: 'Resource Type'
+list.artwork_class: 'Artwork Classifications'
+rel.distributor.typename: distributor
+rel.distributor.typename_reverse: distributor
+rel.rights_holder.typename: 'rights holder'
+rel.rights_holder.typename_reverse: 'rights holder'
+rel.actor.typename: actor
+rel.actor.typename_reverse: actor
+rel.animator.typename: animator
+rel.animator.typename_reverse: animator
+rel.added.typename: 'added entry'
+rel.added.typename_reverse: 'added entry'
+rel.afterword.typename: 'author of afterword, colophon, etc.'
+rel.afterword.typename_reverse: 'author of afterword, colophon, etc.'
+rel.introduction.typename: 'author of introduction, etc.'
+rel.introduction.typename_reverse: 'author of introduction, etc.'
+rel.cinematographer.typename: cinematographer
+rel.cinematographer.typename_reverse: cinematographer
+rel.compiler.typename: compiler
+rel.compiler.typename_reverse: compiler
+rel.composer.typename: composer
+rel.composer.typename_reverse: composer
+rel.depicted.typename: depicted
+rel.depicted.typename_reverse: depicted
+rel.director.typename: director
+rel.director.typename_reverse: director
+rel.filmmaker.typename: filmmaker
+rel.filmmaker.typename_reverse: filmmaker
+rel.honoree.typename: honoree
+rel.honoree.typename_reverse: honoree
+rel.host.typename: host
+rel.host.typename_reverse: host
+rel.host_institution.typename: 'host institution'
+rel.host_institution.typename_reverse: 'host institution'
+rel.illustrator.typename: illustrator
+rel.illustrator.typename_reverse: illustrator
+rel.interviewee.typename: interviewee
+rel.interviewee.typename_reverse: interviewee
+rel.interviewer.typename: interviewer
+rel.interviewer.typename_reverse: interviewer
+rel.musician.typename: musician
+rel.musician.typename_reverse: musician
+rel.narrator.typename: narrator
+rel.narrator.typename_reverse: narrator
+rel.photographer.typename: photographer
+rel.photographer.typename_reverse: photographer
+rel.presenter.typename: presenter
+rel.presenter.typename_reverse: presenter
+rel.researcher.typename: researcher
+rel.researcher.typename_reverse: researcher
+rel.screenwriter.typename: screenwriter
+rel.screenwriter.typename_reverse: screenwriter
+rel.singer.typename: singer
+rel.singer.typename_reverse: singer
+rel.translator.typename: translator
+rel.translator.typename_reverse: translator
+rel.copyright.typename: copyright
+rel.copyright.typename_reverse: copyright
+rel.lyricist.typename: lyricist
+rel.lyricist.typename_reverse: lyricist
+rel.records_manager.typename: 'records manager'
+rel.records_manager.typename_reverse: 'records manager'
+rel.representation.typename: 'is representation of'
+rel.representation.typename_reverse: 'has as representation'
+rel.version.typename: 'version of'
+rel.version.typename_reverse: 'version of'
+rel.loan.typename: 'has as part of'
+rel.loan.typename_reverse: 'is part of'
+rel.contact.typename: contact
+rel.contact.typename_reverse: contact
+rel.agent.typename: agent
+rel.agent.typename_reverse: agent
+mde.set_description: 'Set Description'
+mde.set_item_description: 'Item description'
+mde.set_item_description.description: 'Narrative description for item in this set. This is the primary text used when publicly presenting the item in the context of this set.'
+mde.set_presentation_type: 'Presentation type'
+mde.set_presentation_type.description: 'Determines how set is rendered when displayed to the public in the Pawtucket/Pawtucket2 front-end.'
+mde.set_item_is_primary: 'Is primary item for set?'
+mde.set_item_is_primary.description: 'The item marked as primary will be used to represent the set as a whole when included in a list of sets.'
+mde.set_chron_date_element_code: 'Chronology element code'
+mde.set_chron_date_element_code.description: 'Element code of date range element to be used when placing set items into chronological order.'
+mde.loan_in_date: 'Loan in date'
+mde.loan_in_date.description: 'The date a loan will enter the institution.'
+mde.loan_out_date: 'Loan out date'
+mde.loan_out_date.description: 'The date a loan will enter the institution.'
+mde.loan_return_date: 'Loan return date'
+mde.loan_return_date.description: 'The date a loan is due back to the lending institution.'
+mde.loan_renewal_date: 'Loan renewal application date'
+mde.loan_renewal_date.description: 'The date to apply for a renewal to the loan.'
+mde.loan_conditions: 'Loan conditions'
+mde.loan_conditions.description: 'A statement of the conditions on a loan.'
+mde.loan_note: 'Loan note'
+mde.loan_note.description: 'General information about the loan.'
+mde.loan_purpose: 'Loan Purpose'
+mde.movement_method: 'Movement method'
+mde.movement_method.description: 'The method used in the movement of an object.'
+mde.movement_note: 'Movement note'
+mde.movement_note.description: 'Additional information about the movement of an object or group of objects.'
+mde.planned_removal_date: 'Planned removal date'
+mde.planned_removal_date.description: 'The date an object is to be removed from its current location.'
+mde.removal_date: 'Planned removal date'
+mde.removal_date.description: 'The date an object was actually removed from its current location.'
+mde.movement_reason: 'Reason for move'
+mde.movement_reason.description: 'The purpose or reason for the movement of the object or group of objects.'
+mde.tour_description: Introduction
+mde.tour_description.description: 'Narrative description for tour. This is the primary text used when publicly presenting the tour.'
+mde.tour_stop_description: Introduction
+mde.tour_stop_description.description: 'Narrative description for tour stop. This is the primary text used when publicly presenting the stop.'
+mde.tour_stop_georeference: Georeference
+mde.tour_stop_georeference.description: 'Location of this stop.'
+mde.altID: 'Alternate identifiers'
+mde.altID.description: 'Any additional unambiguous reference to the resource within a given context.'
+mde.overall_date: Date
+mde.content_description: 'Scope and Content'
+mde.condition_description: Condition
+mde.copyright_document: 'Copyright Document'
+mde.registration_number: 'Registration Number'
+mde.copyright_statement: 'Copyright Statement'
+mde.cdwa_indexingMeasurementsSet: Dimensions
+mde.dimensions_diameter: Diameter
+mde.dimensions_diameter.description: 'Diameter of Object'
+mde.Type: 'Dimensions Type'
+mde.missing: 'Missing?'
+mde.cdwa_inscriptions: Inscriptions/Marks
+mde.cdwa_MaterialsTech: 'Material and Techniques'
+mde.cdwa_style: 'Style/Region of Origin'
+mde.cdwa_provenance: Provenance
+mde.conservation_description: 'Conservation/Treatment History'
+mde.general_conservation_line1: 'Conservation Line 2'
+mde.general_conservation_line2: 'Conservation Line 3'
+mde.general_conservation_line3: 'Conservation Line 4'
+mde.general_conservation_line4: 'Conservation Line 5'
+mde.cdwa_visuals: 'Related Visual Documentation'
+mde.cdwa_copyright: Copyright/Restrictions
+mde.cdwa_previousNo: 'Previous ID Number(s)'
+mde.cdwa_research: Research
+mde.cdwa_caption: Caption
+mde.cdwa_insurance: 'Insurance Value'
+mde.cdwa_location: 'Location Where Found'
+mde.cdwa_display: 'Display History'
+mde.dc_location: 'Location of Recording'
+mde.dc_format: 'Format (Digital)'
+mde.dc_format.description: 'The file format of the resource.'
+mde.dc_access: 'Access Rights'
+mde.dc_awards: 'Awards Won'
+mde.previous_no: 'Previous Item #'
+mde.dc_format_analog: 'Format (Analog)'
+mde.dc_format_analog.description: 'The analog format of the resource.'
+mde.250_edition: '250 Edition'
+mde.260_publication: '260  Publication, Distribution, Etc.'
+mde.300_description: '300  Physical Description'
+mde.490_series: '490 Series Statement'
+mde.500_general_note: '500 General Note'
+mde.590_summary: '520 Summary'
+mde.650_lcsh: '650 Subject Added Entry--Topical Term'
+mde.item_caption: Caption
+mde.archival_general: 'General Notes'
+mde.age_level: 'Age Level'
+mde.diversity: Diversity
+mde.uniforms: Uniforms
+mde.color_more: 'Color Mode'
+mde.photo_size: 'Photo Size'
+mde.item_notes: Notes
+mde.entity_date: 'Entity Dates'
+mde.entity_note: 'Entity Notes'
+mde.event_dates: Dates
+mde.data_gaurd: 'Data Guard Number'
+mde.cnumber: 'C Number'
+mde.iron_mountain: 'Iron Mountain Container Number'
+mde.possession_date: 'Date of Possession'
+mde.acknowledge_date: 'Acknowledge Date'
+mde.accession_upload: 'Accession Form Upload'
+mde.loan_period: 'Loan Period'
+mde.loan_insurance: 'Loan Insurance'
+mde.shipment_date: 'Shipment Date'
+mde.shipment_address: 'Shipment Originating Address'
+mde.loan_upload: 'Loan Form Upload'
+mde.unitdate: Date
+mde.unitdate.description: "This element identifies and records the date(s) that pertain to the creation,\n            assembly, accumulation, and/or maintenance and use of the materials being\n            described."
+mde.dacs_date_value: Date
+mde.dacs_dates_types: Type
+mde.extentDACS: Extent
+mde.extentDACS.description: "This element indicates the extent and the physical nature of the\n            materials being described."
+mde.adminbiohist: 'Administrative/Biographical History Element'
+mde.adminbiohist.description: "A description of the\n            context in which the materials being described were created, assembled, and/or\n            maintained is as important as the description of the materials themselves"
+mde.scopecontent: 'Scope and Content'
+mde.scopecontent.description: "This element provides information about the nature of\n            the materials and activities reflected in the unit being described to enable users to\n            judge its potential relevance."
+mde.arrangement: 'System of Arrangement'
+mde.arrangement.description: "This element identifies the various aggregations\n            of archival materials, their relationships, or the sequence of documents within\n            them."
+mde.accessrestrict: 'Conditions Governing Access'
+mde.accessrestrict.description: "This element provides information about\n            access restrictions due to the nature of the information in the materials being\n            described, such as those imposed by the donor, by the repository, or by\n            statutory/regulatory requirements."
+mde.physaccessrestrict: 'Physical Access'
+mde.physaccessrestrict.description: "This element provides information about access\n            restrictions due to any physical characteristics or storage locations that limit,\n            restrict, delay, or otherwise affect access to the materials being described."
+mde.techaccessrestrict: 'Technical Access'
+mde.techaccessrestrict.description: "This element provides information about access\n            restrictions due to any technical requirements restrict or otherwise affect access to\n            the materials being described, such as equipment or specific hardware/software required\n            for use."
+mde.reproduction: 'Conditions Governing Reproduction'
+mde.reproduction.description: "This element identifies any\n            restrictions on reproduction due to copyright or other reasons, as well as restrictions\n            on further use of the materials being described, such as publication after access has\n            been provided."
+mde.langmaterial: 'Languages and Scripts on the Material'
+mde.langmaterial.description: "This element identifies the language(s), script(s), and symbol systems\n            employed in the materials being described, particularly as they may affect its\n            use."
+mde.otherfindingaid: 'Other Finding Aids'
+mde.otherfindingaid.description: "This element identifies any other finding aids to\n            the materials being described particularly if they are available to the user, and\n            provides information about the form and content of those finding aids."
+mde.originalsloc: 'Existence and Location of Originals'
+mde.originalsloc.description: "This element indicates the existence, location, and availability of originals\n            when the materials being described consist of copies, and the originals are not held by\n            the repository"
+mde.altformavail: 'Existence and Location of Copies'
+mde.altformavail.description: "This element indicates the existence, location, and availability of copies or\n            other reproductions of the materials being described when they are available for use in\n            an institution, or for loan or purchase, or available electronically. Do not mention\n            copies in private hands or copies made for personal use."
+mde.publication_note: 'Publication Note'
+mde.publication_note.description: "This element identifies any publications that are about or are based on the\n            use, study, or analysis of the materials being described."
+mde.processInfo: 'Processing Note'
+mde.processInfo.description: "Provide information about actions of the archivist, custodians, or creators of the records or conventions in the finding aid that may have an impact on a researcher’s interpretation of the records or understanding of the information provided in the finding aid.\n            Actions and conventions include but are not limited to reconstruction of provenance, maintenance, reconstruction, or alteration of original order, devising titles for materials, weeding, and maintenance or provision of control numbers or container numbers."
+mde.preferCite: 'Preferred Citation'
+mde.preferCite.description: 'Indicate the preferred style for the citation of the unit being described.'
+mde.custodhist: Provenance
+mde.custodhist.description: "This element provides information on changes of ownership or custody of the\n            material being described, from the time it left the possession of the creator until it\n            was acquired by the repository that is significant for its authenticity, integrity, and\n            interpretation."
+mde.acqinfo: 'Immediate Source of Acquisition'
+mde.acqinfo.description: "Record information about changes of ownership or custody of the materials\n            being described that do not involve direct acquisition by the repository and that are\n            significant for its authenticity, integrity, and interpretation in the Custodial History\n            Element."
+mde.appraisal: Appraisal
+mde.appraisal.description: "This element provides information about the rationale for appraisal\n            decisions, destruction actions, and disposition schedules that are relevant to the\n            understanding and use of the materials being described."
+mde.accruals: Accruals
+mde.accruals.description: "This element informs the user of anticipated additions to the unit being\n            described. An accrual is an acquisition of archival materials additional to that already\n            in the custody of the repository."
+mde.general_notes: 'General notes'
+mde.general_notes.description: 'Record, as needed, information not accommodated by any of the defined elements of description.'
+mde.conservation_notes: 'Conservation notes'
+mde.conservation_notes.description: 'Describe any specific conservation treatment.'
+mde.relation: 'Related Archival Materials'
+mde.relation.description: 'This element indicates the existence and location of archival materials that are closely related to the materials being described by provenance, sphere of activity, or subject matter, either in the same repository, in other repositories, or elsewhere.'
+mde.repository: Repository
+mde.repository.description: "This element identifies the name and location of the repository that hold the\n            materials being described."
+mde.repositoryName: 'Repository name'
+mde.repositoryLocation: 'Repository location'
+mde.carrier_type: '338  Carrier Type'
+ui.object_ui: 'Object editor'
+screen.access_points: 'Access Points'
+screen.FA_front_matter: 'Finding Aid Front Matter'
+ui.standard_sets_ui: 'Set editor'
+ui.standard_set_items_ui: 'Set item editor'
+list.title_types: 'Title Types'
+rel.rightsHolder.typename: 'rights holder'
+rel.rightsHolder.typename_reverse: 'rights holder'
+rel.hasFormat.typename: 'has format'
+rel.hasFormat.typename_reverse: 'if format of'
+rel.hasPart.typename: 'has part'
+rel.hasPart.typename_reverse: 'is part of'
+rel.hasVersion.typename: 'has version'
+rel.hasVersion.typename_reverse: 'is version of'
+rel.isFormatOf.typename: 'is format of'
+rel.isFormatOf.typename_reverse: 'has format'
+rel.isPartOf.typename: 'is part of'
+rel.isPartOf.typename_reverse: 'has part'
+rel.isReferencedBy.typename: 'is referenced by'
+rel.isReferencedBy.typename_reverse: references
+rel.isReplacedBy.typename: 'is replaced by'
+rel.isReplacedBy.typename_reverse: replaces
+rel.isRequiredBy.typename: 'is required by'
+rel.isRequiredBy.typename_reverse: requires
+rel.isVersionOf.typename: 'is version of'
+rel.isVersionOf.typename_reverse: 'has version'
+rel.references.typename: references
+rel.references.typename_reverse: references
+rel.relation.typename: relation
+rel.relation.typename_reverse: relation
+rel.replaces.typename: replaces
+rel.replaces.typename_reverse: replaces
+rel.requires.typename: requires
+rel.requires.typename_reverse: requires
+mde.repositoryline1: 'Repository name'
+mde.repositoryline2: 'Repository location'
+mde.date_value: Date
+mde.dates_types: Type
+mde.extent: Extent
+mde.extent.description: "This element indicates the extent and the physical nature of the\n            materials being described."
+mde.langmaterialline1: Material
+mde.langmaterialline2: Language
+mde.relatedmaterial: 'Related Archival Materials'
+mde.relatedmaterial.description: "This element indicates the existence and location of archival materials that\n            are closely related to the materials being described by provenance, sphere of activity,\n            or subject matter, either in the same repository, in other repositories, or\n            elseware."
+mde.bibliography: 'Publication Note'
+mde.bibliography.description: "This element identifies any publications that are about or are based on the\n            use, study, or analysis of the materials being described."
+mde.note: Notes
+mde.note.description: "This element provides information that cannot be accommodated in any of the\n            defined elements of description."
+mde.profiledesc: 'Description Control'
+mde.profiledesc.description: "The purpose of this element is to document the creation and revision of\n            archival descriptive records."
+mde.bioghist: 'Biographical History'
+mde.bioghist.description: "Record information relevant to the understanding of the life, activities, and\n            relationships of the person or family."
+mde.residences: 'Places of residence'
+mde.residences.description: "Indicate the geographical place(s) of residence of the person or family and\n            the length of residence in each place, as well as any other place with which the person\n            or family has a connection."
+mde.education: Education
+mde.education.description: "Record information about the formal education of persons, including members\n            of families whose education is important to an understanding of their\n            life."
+mde.occupation: Occupation
+mde.occupation.description: "Record information about the principal occupation(s) and career or lifework of\n            persons or about the activities of families. Also indicate any other activities\n            important to an understanding of the life of the person or family."
+mde.otherinfo: 'Other Significant Information'
+mde.otherinfo.description: "Record any other important information not recorded elsewhere in the\n            biographical history."
+mde.adminhist: 'Administrative History'
+mde.adminhist.description: "Give information relevant to the understanding of the creator's functions,\n            activities, and relations with other corporate bodies."
+mde.foundingDates: 'Dates of Founding and/or Dissolution'
+mde.foundingDates.description: "Give the date and place of the founding of the corporate body, and if\n            applicable the date and place of its dissolution."
+mde.dates_line1: Founding
+mde.dates_line2: Dissolution
+mde.geographicalareas: 'Geographical Areas'
+mde.geographicalareas.description: "Give the location of the head office and of any branch or regional offices as\n            well as the geographic region in which the organization operated."
+mde.geo_line1: 'Geographic Area'
+mde.geo_line2: 'Geographic Area Description'
+mde.mandate: Mandate
+mde.mandate.description: "Record the enabling legislation or other legal policy instrument(s) that act\n            as the source of authority for the corporate body in terms of its powers,\n            responsibilities, or sphere of activities, including any significant changes in its\n            authority and functions."
+mde.functions: Functions
+mde.functions.description: "Record information about the functions and activities performed by the\n            corporate body being described."
+mde.adminstructure: 'Administrative Structure'
+mde.adminstructure.description: "Describe the internal structure of the corporate body and the dates of any\n            changes to the structure that are significant to the understanding of the way the\n            corporate body conducts its affairs."
+mde.predecessor: 'Predecessor and Successor Bodies'
+mde.predecessor.description: "Give the facts of the relationship of the body with predecessor or successor\n            bodies to its mandate, functions, or activities."
+mde.chiefofficers: 'Names of Chief Officers'
+mde.chiefofficers.description: "Record the personal name(s) of persons holding the position as chief\n            officer"
+mde.admin: 'Predecessor and Successor Bodies'
+mde.admin.description: "Give the facts of the relationship of the body with predecessor or successor\n            bodies to its mandate, functions, or activities."
+mde.agencyHistory: 'Agency History'
+mde.abstract: Abstract
+mde.LcshNames: 'Library of Congress Names Authority'
+mde.LcshNames.description: 'Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.'
+mde.LcshTopical: 'Library of Congress Topical Authority'
+mde.LcshTopical.description: 'Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.'
+mde.LcshGeo: 'Library of Congress Geographic Areas Authority'
+mde.LcshGeo.description: 'Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.'
+mde.description_line1: 'Description Line 1'
+mde.description_line2: 'Description Line 2'
+mde.custohist: 'Custodial History'
+mde.custohist.description: "This element provides information on changes of ownership or custody of the\n            material being described, from the time it left the possession of the creator until it\n            was acquired by the repository that is significant for its authenticity, integrity, and\n            interpretation."
+mde.acqinfo_line1: 'Aqcuisition date(s)'
+mde.acqinfo_line2: 'Aqcuisition details'
+mde.medium: Medium

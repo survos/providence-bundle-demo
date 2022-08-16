@@ -1,0 +1,8 @@
+rel.related.typename: 'är relaterad till'
+rel.related.typename_reverse: 'är relaterad till'
+rel.part.typename: 'har som en del av'
+rel.part.typename_reverse: 'är en del av'
+rel.subject.typename: 'har ämne'
+rel.subject.typename_reverse: 'är ämne'
+rel.depicts.typename: 'nuvarande plats'
+rel.depicts.typename_reverse: 'nuvarande plats'

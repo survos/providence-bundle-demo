@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<div class="example-wrapper">
+    <h1> Core {{ core }} ({{ core.categoryCode}} )</h1>
+
+    <div>
+        {{ core.description }}
+    </div>
+
+    {% if core.relationships|length %}
+    <h3>Relationships</h3>
+
+        <div>
+            Although a relationship can exist between these cores, a relationshipType must be defined in the profile to make it active.
+        </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Fields</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for rCode, r in core.relationships %}
+        <tr>
+            <td>{{ rCode }}</td>
+            <td>{{ r.NAME_PLURAL }}</td>
+            <td>
+                {{ r.FIELDS|keys|join(',') }}
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+                <h3>Fields</h3>
+    {% component grid with {
+        data: core.fields,
+        columns: [
+            'caFieldName',
+            'name',
+            'label',
+            'description',
+            'dbtype',
+            'fieldType',
+            'fieldDisplayType',
+            'example',
+        ],
+        caller: _self
+    } %}
+        {% block debug dump(row) %}
+    {% endcomponent %}
+
+    {% if core.systemLists|length %}
+        <h3>Lists</h3>
+    {{ dump(core.systemLists) }}
+    {% endif %}
+
+
+
+    {{ dump(core) }}
+</div>
+{% endblock %}

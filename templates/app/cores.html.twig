@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Providence Cores{% endblock %}
+
+{% block content %}
+
+    {% component grid with {
+        data: cores,
+        columns: [
+            'caTable',
+            'singular',
+            'typeClass',
+            'relationships',
+            'entityName',
+            'fields',
+            'lists',
+            'debug'
+        ],
+        caller: _self
+    } %}
+        {% block entityName %}
+        <a href="{{ path('core_show', row.rp) }}">{{ row.entityName }}</a>
+        {% endblock %}
+
+        {% block fields %}
+            {{ row.fields|length }}
+        {% endblock %}
+
+        {% block relationships %}
+            {{ row.relationships ? row.relationships|length }}
+        {% endblock %}
+
+        {% block lists %}
+            {{ row.systemLists|length }}
+        {% endblock %}
+
+        {% block debug %}
+        {{ loop.index == 1 ? dump(row) }}
+        {% endblock %}
+
+    {% endcomponent %}
+{% endblock %}
