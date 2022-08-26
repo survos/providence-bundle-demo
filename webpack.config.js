@@ -72,4 +72,7 @@ Encore
     //.autoProvidejQuery()
 ;
 
-module.exports = Encore.getWebpackConfig();
+
+const config = Encore.getWebpackConfig();
+config.resolve.symlinks = false;
+module.exports = config;

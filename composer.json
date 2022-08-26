@@ -114,6 +114,10 @@
         "symfony/web-profiler-bundle": "^6.1"
     },
     "repositories": {
+        "bootstrap": {
+            "type": "path",
+            "url": "//home/tac/survos/bundles/bootstrap-bundle"
+        },
         "base": {
             "type": "path",
             "url": "//home/tac/survos/bundles/base-bundle"
